@@ -23,7 +23,7 @@
         console.log('ready');
         $.get('/home/test',function(res){
             var result = JSON.parse(res)
-            console.log(result)
+            // console.log(result)
 
 
             var html = ""
