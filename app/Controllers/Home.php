@@ -22,7 +22,7 @@ class Home extends BaseController
         $_tmp = array();
         foreach($A[2] as $row) {
 
-           var_dump($row);
+//            var_dump($row);
             [1813701,31,7886,2639,'Alianza Petrolera','데포르티보 칼리','2019-11-11 00:30:00','2019-11-11 01:36:37',3,3,2,2,1,0,1,5,2,'(c)-7','(c)-4',1,'True',0,'',63,'',2.25,'True',2,8,1,2101,'13','Jhon Alexander Hinestroza Romana','15℃～16℃'];
             $_idx = array('idx','league_idx','home_idx','away_idx','home_name','away_name','game_start_time','second_start_time','game_progress','home_goal','away_goal',
                 'home_1stHalf_goal','away_1stHalf_goal','home_red_card','away_red_card','home_yellow_card','away_yellow_card','home_current_rank','away_current_rank',
