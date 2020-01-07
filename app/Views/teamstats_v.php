@@ -108,29 +108,28 @@
 
 <script>
     $(function(){
-        var teamDetail = [] = <?php echo json_encode($stats[0]);?>;;
-        var rearguard = [] = <?php echo json_encode($stats[1]);?>;
-        var vanguard = [] = <?php echo json_encode($stats[2]);?>;
-        var goalkeeper = [] = <?php echo json_encode($stats[3]);?>;
-        var midfielder = [] = <?php echo json_encode($stats[4]);?>;
-        var coach = [] = <?php echo json_encode($stats[5]);?>;
-        var lineupDetail = [] = <?php echo json_encode($stats[6]);?>;
-        var leagueData = [] = <?php echo json_encode($stats[7]);?>;
-        var cupData = [] = <?php echo json_encode($stats[8]);?>;
-        var countSum = [] = <?php echo json_encode($stats[9]);?>;
-        var teamCount = [] = <?php echo json_encode($stats[10]);?>;
-        var teamHonor = [] = <?php echo json_encode($stats[11]);?>;
-        var teamCharacter = [] = <?php echo json_encode($stats[12]);?>;
-        var teamLastUpdateTime = [] = <?php echo json_encode($stats[13]);?>;
+        var teamDetail = [] = <?php echo json_encode($stats[0]); ?>;
+        // var rearguard = [] = <?php echo json_encode($stats[1]); ?>;
+        // var vanguard = [] = <?php echo json_encode($stats[2]); ?>;
+        // var goalkeeper = [] = <?php echo json_encode($stats[3]); ?>;
+        // var midfielder = [] = <?php echo json_encode($stats[4]); ?>;
+        // var coach = [] = <?php echo json_encode($stats[5]); ?>;
+        // var lineupDetail = [] = <?php echo json_encode($stats[6]); ?>;
+        // var leagueData = [] = <?php echo json_encode($stats[7]); ?>;
+        // var cupData = [] = <?php echo json_encode($stats[8]); ?>;
+         var countSum = [] = <?php echo json_encode($stats[9]); ?>;
+        // var teamCount = [] = <?php echo json_encode($stats[10]); ?>;
+        // var teamHonor = [] = <?php echo json_encode($stats[11]); ?>;
+        // var teamCharacter = [] = <?php echo json_encode($stats[12]); ?>;
+        // var teamLastUpdateTime = [] = <?php echo json_encode($stats[13]); ?>;
 
-        $("#name").html(teamDetail[2]);
-        $("#city").html(teamDetail[7]);
-        $("#home_stadium").html(teamDetail[8]);
-        $("#capacity").html(teamDetail[11]);
-        $("#establishedDate").html(teamDetail[12]);
-        $("#website").html(teamDetail[13]);
-        $("#coach").html(coach[0][4]);
-
+        // $("#name").html(teamDetail[2]);
+        // $("#city").html(teamDetail[7]);
+        // $("#home_stadium").html(teamDetail[8]);
+        // $("#capacity").html(teamDetail[11]);
+        // $("#establishedDate").html(teamDetail[12]);
+        // $("#website").html(teamDetail[13]);
+        
         var option = "";
         for(var i=0; i<countSum.length; i++ ){
             option += '<option value="'+countSum[i][0]+'">'+countSum[i][1]+'</option>';

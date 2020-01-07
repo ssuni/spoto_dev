@@ -1,0 +1,28 @@
+.blue {
+    color: blue;
+}
+.red {
+    color: red;
+}
+
+a:active, a:link, a:visited{
+    color: unset;
+}
+
+.teamName {
+    color: black;
+}
+
+#divView {
+    position: absolute;
+    display: none;
+    background-color: #ffffff;
+    border: solid 2px #d0d0d0;
+    width: 350px;
+    height: 150px;
+    padding: 10px;
+}
+
+.wrap {
+    text-align: center;
+}

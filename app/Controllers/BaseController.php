@@ -43,10 +43,10 @@ class BaseController extends Controller
 		// $this->session = \Config\Services::session();
         $this->request = \Config\Services::request();
 
-        if($_SERVER['REMOTE_ADDR'] !== '220.75.195.225' && $_SERVER['REMOTE_ADDR'] !== '222.101.8.137'){
-            echo 'Working~';
-            die();
-        }
+//        if($_SERVER['REMOTE_ADDR'] !== '220.75.195.225' && $_SERVER['REMOTE_ADDR'] !== '49.173.15.113' && $_SERVER['REMOTE_ADDR'] !==  '14.53.22.94'){
+//            echo 'Working~';
+//            die();
+//        }
 	}
 
 }

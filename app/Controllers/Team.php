@@ -24,11 +24,11 @@ class Team extends BaseController
         $tmp = explode("\n", $res);
         $stats = array();
         $i=0;
+
         foreach($tmp as $row)
         {
             if(isset($pattern[$i])) {
                 $res = str_replace($pattern[$i],'',$row);
-
                 $res = substr($res,0,(strlen($res)-1));
                 $json = str_replace("'",'"',$res);
 
@@ -37,13 +37,39 @@ class Team extends BaseController
                     $json = preg_replace("/^$bom/", '', $json);
                 }
                 $arr= json_decode($json, true);
+//var_dump($arr);
+                if($i == 0){
+                    $teamDetail = array(
+                        'code' => $arr[0],
+                        'name' => $arr[2],
+                        'logo' => $arr[4],
+                        'city' => $arr[7],
+                        'homestadium' => $arr[10]
+                    );
+                }
+//                if($i == 5){
+//                    $coach = array(
+//                        'name' => $arr[0][4]
+//                    );
+//                }
 
-//                print_r($arr);
-//                echo "<hr>";
+//                var_dump($pattern[9]);
+                if($i == 9){
+                    $countsum = array(
+
+                    );
+                }
+                $stats['detail'] = $teamDetail;
+//                $stats['coach'] = $coach;
+
                 $i++;
             }
             $stats[] = $arr;
         }
+
+//        echo '<hr>';
+//        var_dump($stats);
+//        exit;
 
         $data['stats'] = $stats;
 
