@@ -39,7 +39,7 @@ defined('WEEK')   || define('WEEK', 604800);
 defined('MONTH')  || define('MONTH', 2592000);
 defined('YEAR')   || define('YEAR', 31536000);
 defined('DECADE') || define('DECADE', 315360000);
-
+define('cache','?'.time());
 /*
 |--------------------------------------------------------------------------
 | Exit Status Codes
@@ -75,3 +75,15 @@ defined('EXIT_USER_INPUT')     || define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       || define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      || define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+
+define('nowdate',date("Y-m-d"));
+define('nowdatetime',date("Y-m-d H:i:s"));
+define('yoil',array("일", "월", "화", "수", "목", "금", "토"));
+
+define('cache','?'.time());
+define('team',array(
+    9094 => 'Canberra United (w)',
+    20718 => 'WS Wanderers (w)',
+    25968 => '	Melbourne City (w)'
+));

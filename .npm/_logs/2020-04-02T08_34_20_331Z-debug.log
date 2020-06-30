@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'socekt.io-redis',
+1 verbose cli   '--save'
+1 verbose cli ]
+2 info using npm@6.13.7
+3 info using node@v13.11.0
+4 verbose config Skipping project config: /home/spoto/.npmrc. (matches userconfig)
+5 verbose npm-session db034b0407879f49
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 http fetch GET 404 https://registry.npmjs.org/socekt.io-redis 640ms
+9 http fetch GET 404 https://registry.npmjs.org/socekt.io-redis 633ms
+10 silly fetchPackageMetaData error for socekt.io-redis@latest 404 Not Found - GET https://registry.npmjs.org/socekt.io-redis - Not found
+11 timing stage:rollbackFailedOptional Completed in 1ms
+12 timing stage:runTopLevelLifecycles Completed in 1394ms
+13 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/socekt.io-redis - Not found
+13 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:104:15
+13 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+14 verbose statusCode 404
+15 verbose pkgid socekt.io-redis@latest
+16 verbose cwd /home/spoto/socketio
+17 verbose Linux 3.10.0-1062.4.1.el7.x86_64
+18 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "socekt.io-redis" "--save"
+19 verbose node v13.11.0
+20 verbose npm  v6.13.7
+21 error code E404
+22 error 404 Not Found - GET https://registry.npmjs.org/socekt.io-redis - Not found
+23 error 404
+24 error 404 'socekt.io-redis@latest' is not in the npm registry.
+25 error 404 You should bug the author to publish it (or use the name yourself!)
+26 error 404 Note that you can also install from a
+27 error 404 tarball, folder, http url, or git url.
+28 verbose exit [ 1, true ]

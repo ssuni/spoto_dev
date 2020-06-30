@@ -1,0 +1,289 @@
+@media only screen and (max-width: 375px) {
+    body {
+        width: 350px;
+    }
+    #divView {
+        width: 330px;
+        left: 10px !important;
+    }
+    #game_nav>div>span:nth-child(1) {
+        margin-left: 13px;
+    }
+    #game_nav div span:nth-child(3),
+    #game_nav .game_select span:nth-child(3) {
+        left: 24px;
+    }
+    #game_nav > div:nth-child(7) > span:nth-child(2) {
+        width: 30px;
+    }
+
+    #main_nav .first_nav .select_nav .calender,
+    #main_nav .first_nav .select_nav .country,
+    #main_nav .first_nav .select_nav .league {
+        width: 100px !important;
+    }
+    #main_nav>div.first_nav>div.select_nav>.calender>span:nth-child(2){
+        margin-left: 5px;
+    }
+    #main_nav>div.first_nav>div.select_nav>div>span:nth-child(2) {
+        margin-left: 15px;
+    }
+    #main_nav .second_nav .click_nav div {
+        width: 100px;
+    }
+    #main_nav .second_nav .click_nav div span {
+        margin-left: 11px;
+    }
+    #top_nav .main_left,
+    #top_nav .main_right,
+    #temp_aside {
+        display: none;
+    }
+    #soccer_list {
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .notyf {
+        width: 350px;
+        position: absolute;
+        padding: 20px !important;
+        justify-content: unset;
+        align-items: unset;
+
+    }
+    .notyf-announcer {
+        position: unset !important;
+    }
+    .notyf__ripple {
+        height: 200px;
+        width: 300px;
+        right: unset;
+        left: -30px;
+        top: 70px;
+        border-radius: 4px;
+    }
+    .notyf__wrapper {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 4px;
+    }
+    .notyf__message {
+        left: 0px;
+        width:280px;
+    }
+    #soccer_list #listTitle {
+        position: relative;
+    }
+    #soccer_list,
+    #top_nav .main_top,
+    #yesterday_result>div:first-child>div:last-child,
+    #pastResult>div:first-child>div:last-child{
+        width: 350px;
+    }
+
+    #game_nav,
+    #listTitle,
+    article>#todayGame>div:not(:first-child), 
+    article>#tomorrowGame>div:not(:first-child), 
+    article>#todayResult>div:not(:first-child), 
+    article>#yesterday_result>div:not(:first-child), 
+    article>#bookmark>div:not(:first-child),
+    article>#pastResult>div:not(:first-child){
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #main_nav .first_nav,
+    #main_nav .second_nav {
+        display: block;
+    }
+    #main_nav .second_nav {
+        height: auto !important;
+    }
+    #game_nav div {
+        flex: 33%;
+        border-bottom: 1px solid #e6ecf5;
+    }
+    #game_nav div:nth-child(n+7):nth-child(-n+9) {
+        border-bottom: none;
+    }
+    #game_nav div:nth-child(3n) {
+        border-right: none;
+    }
+    #main_nav .first_nav > div,
+    #main_nav .second_nav > div {
+        height: 66px;
+    }
+    #game_nav div span:nth-child(3) {
+        display: none;
+    }
+    #main_nav .first_nav .select_nav >div:nth-child(1),
+    #main_nav .second_nav .click_nav >div:nth-child(1) {
+        margin-left: 19px;
+    }
+    #main_nav>div.first_nav>div.radio_nav>div {
+        float: unset;
+        margin-top: 0px;
+        height: auto;
+    }
+    #main_nav>div.first_nav>div.radio_nav>div>div,
+    #main_nav>div.second_nav>div.check_nav>div>div {
+        height: 66px;
+    }
+    #main_nav>div.first_nav>div.radio_nav [type="radio"]:checked+label,
+    #main_nav>div.first_nav>div.radio_nav [type="radio"]:not(:checked)+label{
+        margin-top: 18px;
+    }
+    #main_nav>div.first_nav>div.radio_nav>div>div {
+        width: 65px;
+        margin-right: 10px;
+    }
+    #main_nav>div.first_nav>div.radio_nav>div>div:nth-child(1) {
+        margin-left: 21px;
+    }
+    #main_nav>div.second_nav>div.check_nav>div {
+        float:unset;
+        margin-left: 50px;
+    }
+    #main_nav>div.second_nav>div.check_nav>div>div {
+        margin-right: 55px;
+        width: 50px;
+    }
+
+    #listTitle {
+        height: auto;
+    }
+    #listTitle>div:not(.notyf){
+        height: 40px;
+        line-height: 40px;
+    }
+    #listTitle > div:nth-child(n+1):nth-child(-n+3),
+    #listTitle > div:nth-child(n+7):nth-child(-n+9),
+    article>#todayGame>div:not(:first-child)>div:nth-child(n+1):nth-child(-n+3),
+    article>#todayGame>div:not(:first-child)>div:nth-child(n+7):nth-child(-n+9),
+    article>#tomorrowGame>div:not(:first-child)>div:nth-child(n+1):nth-child(-n+3),
+    article>#tomorrowGame>div:not(:first-child)>div:nth-child(n+7):nth-child(-n+9),
+    article>#todayResult>div:not(:first-child)>div:nth-child(n+1):nth-child(-n+3),
+    article>#todayResult>div:not(:first-child)>div:nth-child(n+7):nth-child(-n+9),
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(n+1):nth-child(-n+3),
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(n+7):nth-child(-n+9),
+    article>#bookmark>div:not(:first-child)>div:nth-child(n+1):nth-child(-n+3),
+    article>#bookmark>div:not(:first-child)>div:nth-child(n+7):nth-child(-n+9),
+    article>#pastResult>div:not(:first-child)>div:nth-child(n+1):nth-child(-n+3),
+    article>#pastResult>div:not(:first-child)>div:nth-child(n+7):nth-child(-n+9){
+        float: left;
+        border-bottom: 1px solid #e6ecf5;
+    }
+    #listTitle > div:nth-child(1),
+    article>#todayGame>div:not(:first-child)>div:nth-child(1),
+    article>#tomorrowGame>div:not(:first-child)>div:nth-child(1), 
+    article>#todayResult>div:not(:first-child)>div:nth-child(1),
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(1),
+    article>#bookmark>div:not(:first-child)>div:nth-child(1),
+    article>#pastResult>div:not(:first-child)>div:nth-child(1){
+        order: 1;
+        width: 95px;
+    }
+    #listTitle > div:nth-child(2),
+    article>#todayGame>div:not(:first-child)>div:nth-child(2),
+    article>#tomorrowGame>div:not(:first-child)>div:nth-child(2), 
+    article>#todayResult>div:not(:first-child)>div:nth-child(2),
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(2),
+    article>#bookmark>div:not(:first-child)>div:nth-child(2),
+    article>#pastResult>div:not(:first-child)>div:nth-child(2){
+        order: 2;
+    }
+    #listTitle > div:nth-child(3),
+    article>#todayGame>div:not(:first-child)>div:nth-child(3),
+    article>#tomorrowGame>div:not(:first-child)>div:nth-child(3), 
+    article>#todayResult>div:not(:first-child)>div:nth-child(3),
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(3),
+    article>#bookmark>div:not(:first-child)>div:nth-child(3),
+    article>#pastResult>div:not(:first-child)>div:nth-child(3){
+        order: 3;
+        width: 60px;
+    }
+    #listTitle > div:nth-child(7),
+    article>#todayGame>div:not(:first-child)>div:nth-child(7),
+    article>#tomorrowGame>div:not(:first-child)>div:nth-child(7), 
+    article>#todayResult>div:not(:first-child)>div:nth-child(7),
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(7),
+    article>#bookmark>div:not(:first-child)>div:nth-child(7),
+    article>#pastResult>div:not(:first-child)>div:nth-child(7){
+        order: 4;
+    }
+    #listTitle > div:nth-child(8),
+    article>#todayGame>div:not(:first-child)>div:nth-child(8),
+    article>#tomorrowGame>div:not(:first-child)>div:nth-child(8),
+    article>#todayResult>div:not(:first-child)>div:nth-child(8),
+    article>#bookmark>div:not(:first-child)>div:nth-child(8){
+        order: 5;
+        width: 72px;
+    }
+    #yesterday_result #listTitle > div:nth-child(8),
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(8),
+    #pastResult #listTitle > div:nth-child(8),
+    article>#pastResult>div:not(:first-child)>div:nth-child(8){
+        order: 5;
+    }
+    article>#todayGame>div:not(:first-child)>div:nth-child(8)>div,
+    article>#tomorrowGame>div:not(:first-child)>div:nth-child(8)>div, 
+    article>#todayResult>div:not(:first-child)>div:nth-child(8)>div,
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(9)>div,
+    article>#bookmark>div:not(:first-child)>div:nth-child(8)>div,
+    article>#pastResult>div:not(:first-child)>div:nth-child(9)>div{
+        width: 72px !important;
+    }
+    #listTitle > div:nth-child(9),
+    article>#todayGame>div:not(:first-child)>div:nth-child(9),
+    article>#tomorrowGame>div:not(:first-child)>div:nth-child(9), 
+    article>#todayResult>div:not(:first-child)>div:nth-child(9),
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(9),
+    article>#bookmark>div:not(:first-child)>div:nth-child(9),
+    article>#pastResult>div:not(:first-child)>div:nth-child(9){
+        order: 6;
+    }
+    #yesterday_result #listTitle > div:nth-child(9),
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(9),
+    #pastResult #listTitle > div:nth-child(9),
+    article>#pastResult>div:not(:first-child)>div:nth-child(9){
+        width: 72px !important;
+    }
+    #listTitle > div:nth-child(4),
+    article>#todayGame>div:not(:first-child)>div:nth-child(4),
+    article>#tomorrowGame>div:not(:first-child)>div:nth-child(4), 
+    article>#todayResult>div:not(:first-child)>div:nth-child(4),
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(4),
+    article>#bookmark>div:not(:first-child)>div:nth-child(4),
+    article>#pastResult>div:not(:first-child)>div:nth-child(4){
+        order: 7;
+    }
+    #listTitle > div:nth-child(5),
+    article>#todayGame>div:not(:first-child)>div:nth-child(5),
+    article>#tomorrowGame>div:not(:first-child)>div:nth-child(5), 
+    article>#todayResult>div:not(:first-child)>div:nth-child(5),
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(5),
+    article>#bookmark>div:not(:first-child)>div:nth-child(5),
+    article>#pastResult>div:not(:first-child)>div:nth-child(5){
+        order: 8;
+    }
+    #listTitle > div:nth-child(6),
+    article>#todayGame>div:not(:first-child)>div:nth-child(6),
+    article>#tomorrowGame>div:not(:first-child)>div:nth-child(6), 
+    article>#todayResult>div:not(:first-child)>div:nth-child(6),
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(6),
+    article>#bookmark>div:not(:first-child)>div:nth-child(6),
+    article>#pastResult>div:not(:first-child)>div:nth-child(6){
+        order: 9;
+    }
+    article>#todayGame>div:not(:first-child)>div:nth-child(6),
+    article>#tomorrowGame>div:not(:first-child)>div:nth-child(6), 
+    article>#todayResult>div:not(:first-child)>div:nth-child(6),
+    article>#yesterday_result>div:not(:first-child)>div:nth-child(6),
+    article>#bookmark>div:not(:first-child)>div:nth-child(6),
+    article>#pastResult>div:not(:first-child)>div:nth-child(6){
+        border-right: none;
+    }
+}

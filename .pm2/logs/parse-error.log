@@ -1,0 +1,849 @@
+ReferenceError: Agoal is not defined
+    at DetailPageThreeSum.set setP3_1_total [as setP3_1_total] (/home/spoto/node/Detail_lb.js:1117:54)
+    at DetailPageThreeSum.setResDataPart_3 (/home/spoto/node/Detail_lb.js:1011:28)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:65:32)
+    at /home/spoto/node/parse.js:533:51
+/home/spoto/node/Detail_lb.js:1160
+        console.log(H)''
+                      ^^
+
+SyntaxError: Unexpected string
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:1160
+        console.log(H)''
+                      ^^
+
+SyntaxError: Unexpected string
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+TypeError: Cannot read property '0' of undefined
+    at DetailPageThreeSum.set setP3_5_total [as setP3_5_total] (/home/spoto/node/Detail_lb.js:1852:66)
+    at DetailPageThreeSum.setResDataPart_3 (/home/spoto/node/Detail_lb.js:1014:28)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:65:32)
+    at /home/spoto/node/parse.js:533:51
+TypeError: Cannot read property '0' of undefined
+    at DetailPageThreeSum.set setP3_5_total [as setP3_5_total] (/home/spoto/node/Detail_lb.js:1852:66)
+    at DetailPageThreeSum.setResDataPart_3 (/home/spoto/node/Detail_lb.js:1014:28)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:65:32)
+    at /home/spoto/node/parse.js:533:51
+TypeError: Cannot read property '0' of undefined
+    at DetailPageThreeSum.set setP3_5_total [as setP3_5_total] (/home/spoto/node/Detail_lb.js:1854:66)
+    at DetailPageThreeSum.setResDataPart_3 (/home/spoto/node/Detail_lb.js:1014:28)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:65:32)
+    at /home/spoto/node/parse.js:533:51
+TypeError: Cannot read property 'home' of null
+    at Opponent.set setOppoSum [as setOppoSum] (/home/spoto/node/Detail_lb.js:184:33)
+    at new Opponent (/home/spoto/node/Detail_lb.js:167:25)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:37:24)
+    at /home/spoto/node/parse.js:533:51
+TypeError: Cannot read property 'home' of null
+    at Opponent.set setOppoSum [as setOppoSum] (/home/spoto/node/Detail_lb.js:184:33)
+    at new Opponent (/home/spoto/node/Detail_lb.js:167:25)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:37:24)
+    at /home/spoto/node/parse.js:533:51
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+/home/spoto/node/Detail_lb.js:186
+        }catch(){
+               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/spoto/node/parse.js:8:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+TypeError: Cannot read property 'goal' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:925:29)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:405:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:54:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'goal' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:927:29)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:405:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:54:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'goal' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:928:29)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:405:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:54:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'goal' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:928:29)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:405:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:54:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'goal' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:927:29)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:405:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:54:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'goal' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:928:29)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:405:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:54:36)
+    at /home/spoto/node/parse.js:544:51
+ReferenceError: resValŒ is not defined
+    at DetailPageFourSum.set resP4_5_d1 [as resP4_5_d1] (/home/spoto/node/Detail_lb.js:1027:87)
+    at DetailPageFourSum.setResDataPart_7 (/home/spoto/node/Detail_lb.js:441:25)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:94:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot set property 'team_idx' of undefined
+    at DetailPageFourSum.set resP4_5_d1 [as resP4_5_d1] (/home/spoto/node/Detail_lb.js:1027:69)
+    at DetailPageFourSum.setResDataPart_7 (/home/spoto/node/Detail_lb.js:441:25)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:94:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'home' of null
+    at Opponent.set setOppoSum [as setOppoSum] (/home/spoto/node/Detail_lb.js:191:33)
+    at new Opponent (/home/spoto/node/Detail_lb.js:174:25)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:37:24)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'home' of null
+    at Opponent.set setOppoSum [as setOppoSum] (/home/spoto/node/Detail_lb.js:191:33)
+    at new Opponent (/home/spoto/node/Detail_lb.js:174:25)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:37:24)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'home' of null
+    at Opponent.set setOppoSum [as setOppoSum] (/home/spoto/node/Detail_lb.js:192:33)
+    at new Opponent (/home/spoto/node/Detail_lb.js:174:25)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:37:24)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'home' of null
+    at Opponent.set setOppoSum [as setOppoSum] (/home/spoto/node/Detail_lb.js:192:33)
+    at new Opponent (/home/spoto/node/Detail_lb.js:174:25)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:37:24)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'home' of null
+    at Opponent.set setOppoSum [as setOppoSum] (/home/spoto/node/Detail_lb.js:192:33)
+    at new Opponent (/home/spoto/node/Detail_lb.js:174:25)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:37:24)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'home' of null
+    at Opponent.set setOppoSum [as setOppoSum] (/home/spoto/node/Detail_lb.js:192:33)
+    at new Opponent (/home/spoto/node/Detail_lb.js:174:25)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:37:24)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'games' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:928:16)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:405:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:54:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'games' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:928:16)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:405:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:54:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'games' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:1326:16)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:781:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:56:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'games' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:1327:16)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:781:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:56:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'games' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:1327:16)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:781:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:56:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'games' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:1327:16)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:781:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:56:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'games' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:1325:16)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:781:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:56:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'games' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:1326:16)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:781:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:56:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'games' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:1327:16)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:781:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:56:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'games' of undefined
+    at DetailPageFourSum.set setP4_5 [as setP4_5] (/home/spoto/node/Detail_lb.js:1327:16)
+    at DetailPageFourSum.setResDataPart_1 (/home/spoto/node/Detail_lb.js:781:22)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:56:36)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'attribs' of undefined
+    at OriginParse._matchBoxParse (/home/spoto/node/Detail_lb.js:6290:56)
+    at OriginParse._tablesConf (/home/spoto/node/Detail_lb.js:6172:40)
+    at OriginParse.setParse (/home/spoto/node/Detail_lb.js:6089:44)
+    at new OriginParse (/home/spoto/node/Detail_lb.js:6073:14)
+    at Detail_lb.setOriginParse (/home/spoto/node/Detail_lb.js:16:27)
+    at Request._callback (/home/spoto/node/parse.js:475:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+TypeError: Cannot read property 'split' of undefined
+    at OriginParse._matchBoxParse (/home/spoto/node/Detail_lb.js:6290:69)
+    at OriginParse._tablesConf (/home/spoto/node/Detail_lb.js:6172:40)
+    at OriginParse.setParse (/home/spoto/node/Detail_lb.js:6089:44)
+    at new OriginParse (/home/spoto/node/Detail_lb.js:6073:14)
+    at Detail_lb.setOriginParse (/home/spoto/node/Detail_lb.js:16:27)
+    at Request._callback (/home/spoto/node/parse.js:475:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+TypeError: Cannot read property 'split' of undefined
+    at OriginParse._matchBoxParse (/home/spoto/node/Detail_lb.js:6290:69)
+    at OriginParse._tablesConf (/home/spoto/node/Detail_lb.js:6172:40)
+    at OriginParse.setParse (/home/spoto/node/Detail_lb.js:6089:44)
+    at new OriginParse (/home/spoto/node/Detail_lb.js:6073:14)
+    at Detail_lb.setOriginParse (/home/spoto/node/Detail_lb.js:16:27)
+    at Request._callback (/home/spoto/node/parse.js:475:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+TypeError: Cannot read property 'attribs' of undefined
+    at OriginParse._matchBoxParse (/home/spoto/node/Detail_lb.js:6290:56)
+    at OriginParse._tablesConf (/home/spoto/node/Detail_lb.js:6172:40)
+    at OriginParse.setParse (/home/spoto/node/Detail_lb.js:6089:44)
+    at new OriginParse (/home/spoto/node/Detail_lb.js:6073:14)
+    at Detail_lb.setOriginParse (/home/spoto/node/Detail_lb.js:16:27)
+    at Request._callback (/home/spoto/node/parse.js:475:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+TypeError: Cannot read property 'attribs' of undefined
+    at OriginParse._matchBoxParse (/home/spoto/node/Detail_lb.js:6290:56)
+    at OriginParse._tablesConf (/home/spoto/node/Detail_lb.js:6172:40)
+    at OriginParse.setParse (/home/spoto/node/Detail_lb.js:6089:44)
+    at new OriginParse (/home/spoto/node/Detail_lb.js:6073:14)
+    at Detail_lb.setOriginParse (/home/spoto/node/Detail_lb.js:16:27)
+    at Request._callback (/home/spoto/node/parse.js:475:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+TypeError: Cannot read property 'attribs' of undefined
+    at OriginParse._matchBoxParse (/home/spoto/node/Detail_lb.js:6290:56)
+    at OriginParse._tablesConf (/home/spoto/node/Detail_lb.js:6172:40)
+    at OriginParse.setParse (/home/spoto/node/Detail_lb.js:6089:44)
+    at new OriginParse (/home/spoto/node/Detail_lb.js:6073:14)
+    at Detail_lb.setOriginParse (/home/spoto/node/Detail_lb.js:16:27)
+    at Request._callback (/home/spoto/node/parse.js:475:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+TypeError: Cannot read property 'split' of undefined
+    at OriginParse._matchBoxParse (/home/spoto/node/Detail_lb.js:6290:69)
+    at OriginParse._tablesConf (/home/spoto/node/Detail_lb.js:6172:40)
+    at OriginParse.setParse (/home/spoto/node/Detail_lb.js:6089:44)
+    at new OriginParse (/home/spoto/node/Detail_lb.js:6073:14)
+    at Detail_lb.setOriginParse (/home/spoto/node/Detail_lb.js:16:27)
+    at Request._callback (/home/spoto/node/parse.js:475:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+TypeError: Cannot read property 'attribs' of undefined
+    at OriginParse._matchBoxParse (/home/spoto/node/Detail_lb.js:6290:56)
+    at OriginParse._tablesConf (/home/spoto/node/Detail_lb.js:6172:40)
+    at OriginParse.setParse (/home/spoto/node/Detail_lb.js:6089:44)
+    at new OriginParse (/home/spoto/node/Detail_lb.js:6073:14)
+    at Detail_lb.setOriginParse (/home/spoto/node/Detail_lb.js:16:27)
+    at Request._callback (/home/spoto/node/parse.js:475:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+TypeError: Cannot read property 'attribs' of undefined
+    at OriginParse._matchBoxParse (/home/spoto/node/Detail_lb.js:6290:56)
+    at OriginParse._tablesConf (/home/spoto/node/Detail_lb.js:6172:40)
+    at OriginParse.setParse (/home/spoto/node/Detail_lb.js:6089:44)
+    at new OriginParse (/home/spoto/node/Detail_lb.js:6073:14)
+    at Detail_lb.setOriginParse (/home/spoto/node/Detail_lb.js:16:27)
+    at Request._callback (/home/spoto/node/parse.js:475:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+TypeError: Cannot read property 'split' of undefined
+    at OriginParse._matchBoxParse (/home/spoto/node/Detail_lb.js:6290:69)
+    at OriginParse._tablesConf (/home/spoto/node/Detail_lb.js:6172:40)
+    at OriginParse.setParse (/home/spoto/node/Detail_lb.js:6089:44)
+    at new OriginParse (/home/spoto/node/Detail_lb.js:6073:14)
+    at Detail_lb.setOriginParse (/home/spoto/node/Detail_lb.js:16:27)
+    at Request._callback (/home/spoto/node/parse.js:475:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+TypeError: Cannot read property 'attribs' of undefined
+    at OriginParse._matchBoxParse (/home/spoto/node/Detail_lb.js:6290:56)
+    at OriginParse._tablesConf (/home/spoto/node/Detail_lb.js:6172:40)
+    at OriginParse.setParse (/home/spoto/node/Detail_lb.js:6089:44)
+    at new OriginParse (/home/spoto/node/Detail_lb.js:6073:14)
+    at Detail_lb.setOriginParse (/home/spoto/node/Detail_lb.js:16:27)
+    at Request._callback (/home/spoto/node/parse.js:475:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+TypeError: Cannot read property 'attribs' of undefined
+    at OriginParse._matchBoxParse (/home/spoto/node/Detail_lb.js:6290:56)
+    at OriginParse._tablesConf (/home/spoto/node/Detail_lb.js:6172:40)
+    at OriginParse.setParse (/home/spoto/node/Detail_lb.js:6089:44)
+    at new OriginParse (/home/spoto/node/Detail_lb.js:6073:14)
+    at Detail_lb.setOriginParse (/home/spoto/node/Detail_lb.js:16:27)
+    at Request._callback (/home/spoto/node/parse.js:444:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+TypeError: Cannot read property 'home' of undefined
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:51:42)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'home' of undefined
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:51:42)
+    at /home/spoto/node/parse.js:544:51
+TypeError: Cannot read property 'home' of undefined
+    at DetailPageFour.setlineUp (/home/spoto/node/Detail_lb.js:2062:36)
+    at new DetailPageFour (/home/spoto/node/Detail_lb.js:1833:18)
+    at Detail_lb.setDetailPageEach (/home/spoto/node/Detail_lb.js:25:30)
+    at Request._callback (/home/spoto/node/parse.js:445:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/home/spoto/node/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+TypeError: Cannot read property 'away' of undefined
+    at DetailPageFour.setlineUp (/home/spoto/node/Detail_lb.js:2062:36)
+    at new DetailPageFour (/home/spoto/node/Detail_lb.js:1833:18)
+    at Detail_lb.setDetailPageEach (/home/spoto/node/Detail_lb.js:25:30)
+    at Request._callback (/home/spoto/node/parse.js:445:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/home/spoto/node/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+TypeError: Cannot read property 'away' of undefined
+    at DetailPageFour.setlineUp (/home/spoto/node/Detail_lb.js:2062:36)
+    at new DetailPageFour (/home/spoto/node/Detail_lb.js:1833:18)
+    at Detail_lb.setDetailPageEach (/home/spoto/node/Detail_lb.js:25:30)
+    at Request._callback (/home/spoto/node/parse.js:445:43)
+    at Request.self.callback (/home/spoto/node/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/spoto/node/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/home/spoto/node/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+TypeError: Cannot read property 'home' of undefined
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:51:42)
+    at /home/spoto/node/parse.js:544:51
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+/home/spoto/node/parse.js:11
+    explicitArray: false
+    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (internal/modules/cjs/loader.js:1147:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+ReferenceError: subTimeRes is not defined
+    at DetailPageFourSum.set setP4_2_avg_per [as setP4_2_avg_per] (/home/spoto/node/Detail_lb.js:1570:50)
+    at DetailPageFourSum.setResDataPart_3 (/home/spoto/node/Detail_lb.js:1352:30)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:72:32)
+    at /home/spoto/node/parse.js:550:51
+ReferenceError: subTimeRes is not defined
+    at DetailPageFourSum.set setP4_2_avg_per [as setP4_2_avg_per] (/home/spoto/node/Detail_lb.js:1570:50)
+    at DetailPageFourSum.setResDataPart_3 (/home/spoto/node/Detail_lb.js:1352:30)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:72:32)
+    at /home/spoto/node/parse.js:550:51
+ReferenceError: subTimeRes is not defined
+    at DetailPageFourSum.set setP4_2_avg_per [as setP4_2_avg_per] (/home/spoto/node/Detail_lb.js:1570:50)
+    at DetailPageFourSum.setResDataPart_3 (/home/spoto/node/Detail_lb.js:1352:30)
+    at Detail_lb.setDetailPageAll (/home/spoto/node/Detail_lb.js:72:32)
+    at /home/spoto/node/parse.js:550:51

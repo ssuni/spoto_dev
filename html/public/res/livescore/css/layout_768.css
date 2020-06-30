@@ -1,0 +1,55 @@
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    body {
+        width: 740px;
+    }
+    #top_nav .main_left,
+    #top_nav .main_right,
+    #temp_aside {
+        display: none;
+    }
+    #soccer_list {
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #soccer_list,
+    #top_nav .main_top,
+    #yesterday_result>div:first-child>div:last-child {
+        width: 740px;
+    }
+
+    #game_nav>div>span:nth-child(1) {
+        margin-left: 13px;
+    }
+    #game_nav div span:nth-child(3),
+    #game_nav .game_select span:nth-child(3) {
+        left: 24px;
+    }
+    #game_nav > div:nth-child(7) > span:nth-child(2) {
+        width: 30px;
+    }
+
+    #main_nav .first_nav .select_nav div {
+        width: 100px;
+    }
+    #main_nav .first_nav .select_nav .calender,
+    #main_nav .first_nav .select_nav .country,
+    #main_nav .first_nav .select_nav .league {
+        width: 100px !important;
+    }
+    #main_nav>div.first_nav>div.select_nav>.calender>span:nth-child(2){
+        margin-left: 5px;
+    }
+    #main_nav>div.first_nav>div.select_nav>div>span:nth-child(2) {
+        margin-left: 15px;
+    }
+    #main_nav .second_nav .click_nav div {
+        width: 100px;
+    }
+    #main_nav .second_nav .click_nav div span {
+        margin-left: 11px;
+    }
+    .notyf {
+        width: 740px;
+    }
+}

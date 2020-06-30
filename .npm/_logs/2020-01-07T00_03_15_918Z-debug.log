@@ -1,0 +1,1070 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'i', '-g', 'nodemon' ]
+2 info using npm@6.11.3
+3 info using node@v12.11.1
+4 verbose npm-session cd79c9a522ae7dbd
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/nodemon 66ms (from cache)
+8 silly pacote tag manifest for nodemon@latest fetched in 75ms
+9 timing stage:loadCurrentTree Completed in 339ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 53ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule nodemon@2.0.2 checking installable status
+17 silly removeObsoleteDep removing nodemon@1.19.4 from the tree as its been replaced by a newer version or is no longer required
+18 silly removeObsoleteDep removing chokidar@2.1.8 from the tree as its been replaced by a newer version or is no longer required
+19 silly removeObsoleteDep removing anymatch@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+20 silly removeObsoleteDep removing micromatch@3.1.10 from the tree as its been replaced by a newer version or is no longer required
+21 silly removeObsoleteDep removing arr-diff@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+22 silly removeObsoleteDep removing array-unique@0.3.2 from the tree as its been replaced by a newer version or is no longer required
+23 silly removeObsoleteDep removing braces@2.3.2 from the tree as its been replaced by a newer version or is no longer required
+24 silly removeObsoleteDep removing arr-flatten@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+25 silly removeObsoleteDep removing extend-shallow@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+26 silly removeObsoleteDep removing is-extendable@0.1.1 from the tree as its been replaced by a newer version or is no longer required
+27 silly removeObsoleteDep removing fill-range@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+28 silly removeObsoleteDep removing extend-shallow@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+29 silly removeObsoleteDep removing is-number@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+30 silly removeObsoleteDep removing kind-of@3.2.2 from the tree as its been replaced by a newer version or is no longer required
+31 silly removeObsoleteDep removing is-buffer@1.1.6 from the tree as its been replaced by a newer version or is no longer required
+32 silly removeObsoleteDep removing repeat-string@1.6.1 from the tree as its been replaced by a newer version or is no longer required
+33 silly removeObsoleteDep removing to-regex-range@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+34 silly removeObsoleteDep removing isobject@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+35 silly removeObsoleteDep removing repeat-element@1.1.3 from the tree as its been replaced by a newer version or is no longer required
+36 silly removeObsoleteDep removing snapdragon@0.8.2 from the tree as its been replaced by a newer version or is no longer required
+37 silly removeObsoleteDep removing base@0.11.2 from the tree as its been replaced by a newer version or is no longer required
+38 silly removeObsoleteDep removing cache-base@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+39 silly removeObsoleteDep removing collection-visit@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+40 silly removeObsoleteDep removing map-visit@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+41 silly removeObsoleteDep removing object-visit@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+42 silly removeObsoleteDep removing component-emitter@1.3.0 from the tree as its been replaced by a newer version or is no longer required
+43 silly removeObsoleteDep removing get-value@2.0.6 from the tree as its been replaced by a newer version or is no longer required
+44 silly removeObsoleteDep removing has-value@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+45 silly removeObsoleteDep removing has-values@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+46 silly removeObsoleteDep removing kind-of@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+47 silly removeObsoleteDep removing set-value@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+48 silly removeObsoleteDep removing extend-shallow@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+49 silly removeObsoleteDep removing is-plain-object@2.0.4 from the tree as its been replaced by a newer version or is no longer required
+50 silly removeObsoleteDep removing split-string@3.1.0 from the tree as its been replaced by a newer version or is no longer required
+51 silly removeObsoleteDep removing extend-shallow@3.0.2 from the tree as its been replaced by a newer version or is no longer required
+52 silly removeObsoleteDep removing assign-symbols@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+53 silly removeObsoleteDep removing is-extendable@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+54 silly removeObsoleteDep removing to-object-path@0.3.0 from the tree as its been replaced by a newer version or is no longer required
+55 silly removeObsoleteDep removing kind-of@3.2.2 from the tree as its been replaced by a newer version or is no longer required
+56 silly removeObsoleteDep removing union-value@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+57 silly removeObsoleteDep removing arr-union@3.1.0 from the tree as its been replaced by a newer version or is no longer required
+58 silly removeObsoleteDep removing unset-value@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+59 silly removeObsoleteDep removing has-value@0.3.1 from the tree as its been replaced by a newer version or is no longer required
+60 silly removeObsoleteDep removing has-values@0.1.4 from the tree as its been replaced by a newer version or is no longer required
+61 silly removeObsoleteDep removing isobject@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+62 silly removeObsoleteDep removing isarray@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+63 silly removeObsoleteDep removing class-utils@0.3.6 from the tree as its been replaced by a newer version or is no longer required
+64 silly removeObsoleteDep removing define-property@0.2.5 from the tree as its been replaced by a newer version or is no longer required
+65 silly removeObsoleteDep removing is-descriptor@0.1.6 from the tree as its been replaced by a newer version or is no longer required
+66 silly removeObsoleteDep removing is-accessor-descriptor@0.1.6 from the tree as its been replaced by a newer version or is no longer required
+67 silly removeObsoleteDep removing kind-of@3.2.2 from the tree as its been replaced by a newer version or is no longer required
+68 silly removeObsoleteDep removing is-data-descriptor@0.1.4 from the tree as its been replaced by a newer version or is no longer required
+69 silly removeObsoleteDep removing kind-of@3.2.2 from the tree as its been replaced by a newer version or is no longer required
+70 silly removeObsoleteDep removing kind-of@5.1.0 from the tree as its been replaced by a newer version or is no longer required
+71 silly removeObsoleteDep removing static-extend@0.1.2 from the tree as its been replaced by a newer version or is no longer required
+72 silly removeObsoleteDep removing define-property@0.2.5 from the tree as its been replaced by a newer version or is no longer required
+73 silly removeObsoleteDep removing object-copy@0.1.0 from the tree as its been replaced by a newer version or is no longer required
+74 silly removeObsoleteDep removing copy-descriptor@0.1.1 from the tree as its been replaced by a newer version or is no longer required
+75 silly removeObsoleteDep removing define-property@0.2.5 from the tree as its been replaced by a newer version or is no longer required
+76 silly removeObsoleteDep removing kind-of@3.2.2 from the tree as its been replaced by a newer version or is no longer required
+77 silly removeObsoleteDep removing define-property@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+78 silly removeObsoleteDep removing is-descriptor@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+79 silly removeObsoleteDep removing is-accessor-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+80 silly removeObsoleteDep removing kind-of@6.0.2 from the tree as its been replaced by a newer version or is no longer required
+81 silly removeObsoleteDep removing is-data-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+82 silly removeObsoleteDep removing mixin-deep@1.3.2 from the tree as its been replaced by a newer version or is no longer required
+83 silly removeObsoleteDep removing for-in@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+84 silly removeObsoleteDep removing is-extendable@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+85 silly removeObsoleteDep removing pascalcase@0.1.1 from the tree as its been replaced by a newer version or is no longer required
+86 silly removeObsoleteDep removing debug@2.6.9 from the tree as its been replaced by a newer version or is no longer required
+87 silly removeObsoleteDep removing define-property@0.2.5 from the tree as its been replaced by a newer version or is no longer required
+88 silly removeObsoleteDep removing extend-shallow@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+89 silly removeObsoleteDep removing map-cache@0.2.2 from the tree as its been replaced by a newer version or is no longer required
+90 silly removeObsoleteDep removing source-map@0.5.7 from the tree as its been replaced by a newer version or is no longer required
+91 silly removeObsoleteDep removing source-map-resolve@0.5.2 from the tree as its been replaced by a newer version or is no longer required
+92 silly removeObsoleteDep removing atob@2.1.2 from the tree as its been replaced by a newer version or is no longer required
+93 silly removeObsoleteDep removing decode-uri-component@0.2.0 from the tree as its been replaced by a newer version or is no longer required
+94 silly removeObsoleteDep removing resolve-url@0.2.1 from the tree as its been replaced by a newer version or is no longer required
+95 silly removeObsoleteDep removing source-map-url@0.4.0 from the tree as its been replaced by a newer version or is no longer required
+96 silly removeObsoleteDep removing urix@0.1.0 from the tree as its been replaced by a newer version or is no longer required
+97 silly removeObsoleteDep removing use@3.1.1 from the tree as its been replaced by a newer version or is no longer required
+98 silly removeObsoleteDep removing snapdragon-node@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+99 silly removeObsoleteDep removing define-property@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+100 silly removeObsoleteDep removing is-descriptor@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+101 silly removeObsoleteDep removing is-accessor-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+102 silly removeObsoleteDep removing is-data-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+103 silly removeObsoleteDep removing snapdragon-util@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+104 silly removeObsoleteDep removing kind-of@3.2.2 from the tree as its been replaced by a newer version or is no longer required
+105 silly removeObsoleteDep removing to-regex@3.0.2 from the tree as its been replaced by a newer version or is no longer required
+106 silly removeObsoleteDep removing define-property@2.0.2 from the tree as its been replaced by a newer version or is no longer required
+107 silly removeObsoleteDep removing is-descriptor@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+108 silly removeObsoleteDep removing is-accessor-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+109 silly removeObsoleteDep removing is-data-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+110 silly removeObsoleteDep removing regex-not@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+111 silly removeObsoleteDep removing safe-regex@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+112 silly removeObsoleteDep removing ret@0.1.15 from the tree as its been replaced by a newer version or is no longer required
+113 silly removeObsoleteDep removing extglob@2.0.4 from the tree as its been replaced by a newer version or is no longer required
+114 silly removeObsoleteDep removing define-property@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+115 silly removeObsoleteDep removing is-descriptor@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+116 silly removeObsoleteDep removing is-accessor-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+117 silly removeObsoleteDep removing is-data-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+118 silly removeObsoleteDep removing expand-brackets@2.1.4 from the tree as its been replaced by a newer version or is no longer required
+119 silly removeObsoleteDep removing debug@2.6.9 from the tree as its been replaced by a newer version or is no longer required
+120 silly removeObsoleteDep removing define-property@0.2.5 from the tree as its been replaced by a newer version or is no longer required
+121 silly removeObsoleteDep removing extend-shallow@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+122 silly removeObsoleteDep removing posix-character-classes@0.1.1 from the tree as its been replaced by a newer version or is no longer required
+123 silly removeObsoleteDep removing extend-shallow@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+124 silly removeObsoleteDep removing fragment-cache@0.2.1 from the tree as its been replaced by a newer version or is no longer required
+125 silly removeObsoleteDep removing nanomatch@1.2.13 from the tree as its been replaced by a newer version or is no longer required
+126 silly removeObsoleteDep removing is-windows@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+127 silly removeObsoleteDep removing object.pick@1.3.0 from the tree as its been replaced by a newer version or is no longer required
+128 silly removeObsoleteDep removing normalize-path@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+129 silly removeObsoleteDep removing remove-trailing-separator@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+130 silly removeObsoleteDep removing async-each@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+131 silly removeObsoleteDep removing glob-parent@3.1.0 from the tree as its been replaced by a newer version or is no longer required
+132 silly removeObsoleteDep removing is-glob@3.1.0 from the tree as its been replaced by a newer version or is no longer required
+133 silly removeObsoleteDep removing is-extglob@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+134 silly removeObsoleteDep removing path-dirname@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+135 silly removeObsoleteDep removing inherits@2.0.4 from the tree as its been replaced by a newer version or is no longer required
+136 silly removeObsoleteDep removing is-binary-path@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+137 silly removeObsoleteDep removing binary-extensions@1.13.1 from the tree as its been replaced by a newer version or is no longer required
+138 silly removeObsoleteDep removing is-glob@4.0.1 from the tree as its been replaced by a newer version or is no longer required
+139 silly removeObsoleteDep removing normalize-path@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+140 silly removeObsoleteDep removing path-is-absolute@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+141 silly removeObsoleteDep removing readdirp@2.2.1 from the tree as its been replaced by a newer version or is no longer required
+142 silly removeObsoleteDep removing readable-stream@2.3.6 from the tree as its been replaced by a newer version or is no longer required
+143 silly removeObsoleteDep removing core-util-is@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+144 silly removeObsoleteDep removing process-nextick-args@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+145 silly removeObsoleteDep removing string_decoder@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+146 silly removeObsoleteDep removing util-deprecate@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+147 silly removeObsoleteDep removing upath@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+148 silly removeObsoleteDep removing debug@3.2.6 from the tree as its been replaced by a newer version or is no longer required
+149 silly removeObsoleteDep removing ms@2.1.2 from the tree as its been replaced by a newer version or is no longer required
+150 silly removeObsoleteDep removing ignore-by-default@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+151 silly removeObsoleteDep removing minimatch@3.0.4 from the tree as its been replaced by a newer version or is no longer required
+152 silly removeObsoleteDep removing brace-expansion@1.1.11 from the tree as its been replaced by a newer version or is no longer required
+153 silly removeObsoleteDep removing balanced-match@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+154 silly removeObsoleteDep removing concat-map@0.0.1 from the tree as its been replaced by a newer version or is no longer required
+155 silly removeObsoleteDep removing pstree.remy@1.1.7 from the tree as its been replaced by a newer version or is no longer required
+156 silly removeObsoleteDep removing touch@3.1.0 from the tree as its been replaced by a newer version or is no longer required
+157 silly removeObsoleteDep removing nopt@1.0.10 from the tree as its been replaced by a newer version or is no longer required
+158 silly removeObsoleteDep removing abbrev@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+159 silly removeObsoleteDep removing undefsafe@2.0.2 from the tree as its been replaced by a newer version or is no longer required
+160 silly removeObsoleteDep removing debug@2.6.9 from the tree as its been replaced by a newer version or is no longer required
+161 silly removeObsoleteDep removing ms@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+162 silly removeObsoleteDep removing update-notifier@2.5.0 from the tree as its been replaced by a newer version or is no longer required
+163 silly removeObsoleteDep removing boxen@1.3.0 from the tree as its been replaced by a newer version or is no longer required
+164 silly removeObsoleteDep removing ansi-align@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+165 silly removeObsoleteDep removing string-width@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+166 silly removeObsoleteDep removing is-fullwidth-code-point@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+167 silly removeObsoleteDep removing strip-ansi@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+168 silly removeObsoleteDep removing ansi-regex@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+169 silly removeObsoleteDep removing camelcase@4.1.0 from the tree as its been replaced by a newer version or is no longer required
+170 silly removeObsoleteDep removing chalk@2.4.2 from the tree as its been replaced by a newer version or is no longer required
+171 silly removeObsoleteDep removing ansi-styles@3.2.1 from the tree as its been replaced by a newer version or is no longer required
+172 silly removeObsoleteDep removing color-convert@1.9.3 from the tree as its been replaced by a newer version or is no longer required
+173 silly removeObsoleteDep removing color-name@1.1.3 from the tree as its been replaced by a newer version or is no longer required
+174 silly removeObsoleteDep removing escape-string-regexp@1.0.5 from the tree as its been replaced by a newer version or is no longer required
+175 silly removeObsoleteDep removing supports-color@5.5.0 from the tree as its been replaced by a newer version or is no longer required
+176 silly removeObsoleteDep removing has-flag@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+177 silly removeObsoleteDep removing cli-boxes@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+178 silly removeObsoleteDep removing term-size@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+179 silly removeObsoleteDep removing execa@0.7.0 from the tree as its been replaced by a newer version or is no longer required
+180 silly removeObsoleteDep removing cross-spawn@5.1.0 from the tree as its been replaced by a newer version or is no longer required
+181 silly removeObsoleteDep removing lru-cache@4.1.5 from the tree as its been replaced by a newer version or is no longer required
+182 silly removeObsoleteDep removing pseudomap@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+183 silly removeObsoleteDep removing yallist@2.1.2 from the tree as its been replaced by a newer version or is no longer required
+184 silly removeObsoleteDep removing shebang-command@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+185 silly removeObsoleteDep removing shebang-regex@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+186 silly removeObsoleteDep removing which@1.3.1 from the tree as its been replaced by a newer version or is no longer required
+187 silly removeObsoleteDep removing isexe@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+188 silly removeObsoleteDep removing get-stream@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+189 silly removeObsoleteDep removing is-stream@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+190 silly removeObsoleteDep removing npm-run-path@2.0.2 from the tree as its been replaced by a newer version or is no longer required
+191 silly removeObsoleteDep removing path-key@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+192 silly removeObsoleteDep removing p-finally@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+193 silly removeObsoleteDep removing signal-exit@3.0.2 from the tree as its been replaced by a newer version or is no longer required
+194 silly removeObsoleteDep removing strip-eof@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+195 silly removeObsoleteDep removing widest-line@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+196 silly removeObsoleteDep removing configstore@3.1.2 from the tree as its been replaced by a newer version or is no longer required
+197 silly removeObsoleteDep removing dot-prop@4.2.0 from the tree as its been replaced by a newer version or is no longer required
+198 silly removeObsoleteDep removing is-obj@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+199 silly removeObsoleteDep removing graceful-fs@4.2.3 from the tree as its been replaced by a newer version or is no longer required
+200 silly removeObsoleteDep removing make-dir@1.3.0 from the tree as its been replaced by a newer version or is no longer required
+201 silly removeObsoleteDep removing pify@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+202 silly removeObsoleteDep removing unique-string@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+203 silly removeObsoleteDep removing crypto-random-string@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+204 silly removeObsoleteDep removing write-file-atomic@2.4.3 from the tree as its been replaced by a newer version or is no longer required
+205 silly removeObsoleteDep removing imurmurhash@0.1.4 from the tree as its been replaced by a newer version or is no longer required
+206 silly removeObsoleteDep removing xdg-basedir@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+207 silly removeObsoleteDep removing import-lazy@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+208 silly removeObsoleteDep removing is-ci@1.2.1 from the tree as its been replaced by a newer version or is no longer required
+209 silly removeObsoleteDep removing ci-info@1.6.0 from the tree as its been replaced by a newer version or is no longer required
+210 silly removeObsoleteDep removing is-installed-globally@0.1.0 from the tree as its been replaced by a newer version or is no longer required
+211 silly removeObsoleteDep removing global-dirs@0.1.1 from the tree as its been replaced by a newer version or is no longer required
+212 silly removeObsoleteDep removing ini@1.3.5 from the tree as its been replaced by a newer version or is no longer required
+213 silly removeObsoleteDep removing is-path-inside@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+214 silly removeObsoleteDep removing path-is-inside@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+215 silly removeObsoleteDep removing is-npm@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+216 silly removeObsoleteDep removing latest-version@3.1.0 from the tree as its been replaced by a newer version or is no longer required
+217 silly removeObsoleteDep removing package-json@4.0.1 from the tree as its been replaced by a newer version or is no longer required
+218 silly removeObsoleteDep removing got@6.7.1 from the tree as its been replaced by a newer version or is no longer required
+219 silly removeObsoleteDep removing create-error-class@3.0.2 from the tree as its been replaced by a newer version or is no longer required
+220 silly removeObsoleteDep removing capture-stack-trace@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+221 silly removeObsoleteDep removing duplexer3@0.1.4 from the tree as its been replaced by a newer version or is no longer required
+222 silly removeObsoleteDep removing is-redirect@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+223 silly removeObsoleteDep removing is-retry-allowed@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+224 silly removeObsoleteDep removing lowercase-keys@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+225 silly removeObsoleteDep removing safe-buffer@5.1.2 from the tree as its been replaced by a newer version or is no longer required
+226 silly removeObsoleteDep removing timed-out@4.0.1 from the tree as its been replaced by a newer version or is no longer required
+227 silly removeObsoleteDep removing unzip-response@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+228 silly removeObsoleteDep removing url-parse-lax@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+229 silly removeObsoleteDep removing prepend-http@1.0.4 from the tree as its been replaced by a newer version or is no longer required
+230 silly removeObsoleteDep removing registry-auth-token@3.4.0 from the tree as its been replaced by a newer version or is no longer required
+231 silly removeObsoleteDep removing rc@1.2.8 from the tree as its been replaced by a newer version or is no longer required
+232 silly removeObsoleteDep removing deep-extend@0.6.0 from the tree as its been replaced by a newer version or is no longer required
+233 silly removeObsoleteDep removing minimist@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+234 silly removeObsoleteDep removing strip-json-comments@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+235 silly removeObsoleteDep removing registry-url@3.1.0 from the tree as its been replaced by a newer version or is no longer required
+236 silly removeObsoleteDep removing semver@5.7.1 from the tree as its been replaced by a newer version or is no longer required
+237 silly removeObsoleteDep removing semver-diff@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+238 http fetch GET 200 https://registry.npmjs.org/update-notifier 21ms (from cache)
+239 silly pacote range manifest for update-notifier@^2.5.0 fetched in 24ms
+240 silly resolveWithNewModule update-notifier@2.5.0 checking installable status
+241 http fetch GET 304 https://registry.npmjs.org/chokidar 34ms (from cache)
+242 silly pacote range manifest for chokidar@^3.2.2 fetched in 36ms
+243 silly resolveWithNewModule chokidar@3.3.1 checking installable status
+244 http fetch GET 304 https://registry.npmjs.org/touch 40ms (from cache)
+245 silly pacote range manifest for touch@^3.1.0 fetched in 42ms
+246 silly resolveWithNewModule touch@3.1.0 checking installable status
+247 http fetch GET 304 https://registry.npmjs.org/debug 61ms (from cache)
+248 silly pacote range manifest for debug@^3.2.6 fetched in 63ms
+249 silly resolveWithNewModule debug@3.2.6 checking installable status
+250 http fetch GET 304 https://registry.npmjs.org/undefsafe 60ms (from cache)
+251 http fetch GET 304 https://registry.npmjs.org/supports-color 64ms (from cache)
+252 silly pacote range manifest for undefsafe@^2.0.2 fetched in 65ms
+253 silly resolveWithNewModule undefsafe@2.0.2 checking installable status
+254 silly pacote range manifest for supports-color@^5.5.0 fetched in 67ms
+255 silly resolveWithNewModule supports-color@5.5.0 checking installable status
+256 http fetch GET 304 https://registry.npmjs.org/pstree.remy 69ms (from cache)
+257 http fetch GET 304 https://registry.npmjs.org/ignore-by-default 71ms (from cache)
+258 silly pacote range manifest for pstree.remy@^1.1.7 fetched in 71ms
+259 silly resolveWithNewModule pstree.remy@1.1.7 checking installable status
+260 http fetch GET 304 https://registry.npmjs.org/semver 70ms (from cache)
+261 http fetch GET 304 https://registry.npmjs.org/minimatch 72ms (from cache)
+262 silly pacote range manifest for ignore-by-default@^1.0.1 fetched in 74ms
+263 silly resolveWithNewModule ignore-by-default@1.0.1 checking installable status
+264 silly pacote range manifest for semver@^5.7.1 fetched in 72ms
+265 silly resolveWithNewModule semver@5.7.1 checking installable status
+266 silly pacote range manifest for minimatch@^3.0.4 fetched in 74ms
+267 silly resolveWithNewModule minimatch@3.0.4 checking installable status
+268 http fetch GET 304 https://registry.npmjs.org/anymatch 39ms (from cache)
+269 http fetch GET 304 https://registry.npmjs.org/glob-parent 38ms (from cache)
+270 http fetch GET 304 https://registry.npmjs.org/is-binary-path 39ms (from cache)
+271 http fetch GET 304 https://registry.npmjs.org/fsevents 39ms (from cache)
+272 http fetch GET 304 https://registry.npmjs.org/readdirp 40ms (from cache)
+273 silly pacote range manifest for anymatch@~3.1.1 fetched in 42ms
+274 silly resolveWithNewModule anymatch@3.1.1 checking installable status
+275 http fetch GET 304 https://registry.npmjs.org/is-glob 42ms (from cache)
+276 silly pacote range manifest for glob-parent@~5.1.0 fetched in 42ms
+277 silly resolveWithNewModule glob-parent@5.1.0 checking installable status
+278 silly pacote range manifest for is-binary-path@~2.1.0 fetched in 43ms
+279 silly resolveWithNewModule is-binary-path@2.1.0 checking installable status
+280 http fetch GET 304 https://registry.npmjs.org/normalize-path 44ms (from cache)
+281 silly pacote range manifest for fsevents@~2.1.2 fetched in 43ms
+282 silly resolveWithNewModule fsevents@2.1.2 checking installable status
+283 http fetch GET 304 https://registry.npmjs.org/braces 46ms (from cache)
+284 silly pacote range manifest for readdirp@~3.3.0 fetched in 45ms
+285 silly resolveWithNewModule readdirp@3.3.0 checking installable status
+286 silly pacote range manifest for is-glob@~4.0.1 fetched in 46ms
+287 silly resolveWithNewModule is-glob@4.0.1 checking installable status
+288 silly pacote range manifest for braces@~3.0.2 fetched in 47ms
+289 silly resolveWithNewModule braces@3.0.2 checking installable status
+290 silly pacote range manifest for normalize-path@~3.0.0 fetched in 47ms
+291 silly resolveWithNewModule normalize-path@3.0.0 checking installable status
+292 http fetch GET 304 https://registry.npmjs.org/picomatch 17ms (from cache)
+293 silly pacote range manifest for picomatch@^2.0.4 fetched in 18ms
+294 silly resolveWithNewModule picomatch@2.2.1 checking installable status
+295 http fetch GET 304 https://registry.npmjs.org/fill-range 17ms (from cache)
+296 silly pacote range manifest for fill-range@^7.0.1 fetched in 18ms
+297 silly resolveWithNewModule fill-range@7.0.1 checking installable status
+298 http fetch GET 304 https://registry.npmjs.org/to-regex-range 16ms (from cache)
+299 silly pacote range manifest for to-regex-range@^5.0.1 fetched in 17ms
+300 silly resolveWithNewModule to-regex-range@5.0.1 checking installable status
+301 http fetch GET 304 https://registry.npmjs.org/is-number 16ms (from cache)
+302 silly pacote range manifest for is-number@^7.0.0 fetched in 17ms
+303 silly resolveWithNewModule is-number@7.0.0 checking installable status
+304 http fetch GET 304 https://registry.npmjs.org/is-extglob 17ms (from cache)
+305 silly pacote range manifest for is-extglob@^2.1.1 fetched in 17ms
+306 silly resolveWithNewModule is-extglob@2.1.1 checking installable status
+307 http fetch GET 304 https://registry.npmjs.org/binary-extensions 19ms (from cache)
+308 silly pacote range manifest for binary-extensions@^2.0.0 fetched in 20ms
+309 silly resolveWithNewModule binary-extensions@2.0.0 checking installable status
+310 http fetch GET 304 https://registry.npmjs.org/ms 15ms (from cache)
+311 silly pacote range manifest for ms@^2.1.1 fetched in 16ms
+312 silly resolveWithNewModule ms@2.1.2 checking installable status
+313 http fetch GET 304 https://registry.npmjs.org/brace-expansion 16ms (from cache)
+314 silly pacote range manifest for brace-expansion@^1.1.7 fetched in 17ms
+315 silly resolveWithNewModule brace-expansion@1.1.11 checking installable status
+316 http fetch GET 304 https://registry.npmjs.org/concat-map 17ms (from cache)
+317 http fetch GET 304 https://registry.npmjs.org/balanced-match 18ms (from cache)
+318 silly pacote version manifest for concat-map@0.0.1 fetched in 18ms
+319 silly resolveWithNewModule concat-map@0.0.1 checking installable status
+320 silly pacote range manifest for balanced-match@^1.0.0 fetched in 19ms
+321 silly resolveWithNewModule balanced-match@1.0.0 checking installable status
+322 http fetch GET 304 https://registry.npmjs.org/has-flag 14ms (from cache)
+323 silly pacote range manifest for has-flag@^3.0.0 fetched in 15ms
+324 silly resolveWithNewModule has-flag@3.0.0 checking installable status
+325 http fetch GET 304 https://registry.npmjs.org/nopt 15ms (from cache)
+326 silly pacote range manifest for nopt@~1.0.10 fetched in 15ms
+327 silly resolveWithNewModule nopt@1.0.10 checking installable status
+328 http fetch GET 304 https://registry.npmjs.org/abbrev 15ms (from cache)
+329 silly pacote range manifest for abbrev@1 fetched in 16ms
+330 silly resolveWithNewModule abbrev@1.1.1 checking installable status
+331 silly pacote range manifest for debug@^2.2.0 fetched in 0ms
+332 silly resolveWithNewModule debug@2.6.9 checking installable status
+333 silly pacote version manifest for ms@2.0.0 fetched in 0ms
+334 silly resolveWithNewModule ms@2.0.0 checking installable status
+335 http fetch GET 304 https://registry.npmjs.org/is-ci 40ms (from cache)
+336 http fetch GET 304 https://registry.npmjs.org/chalk 41ms (from cache)
+337 silly pacote range manifest for is-ci@^1.0.10 fetched in 43ms
+338 silly resolveWithNewModule is-ci@1.2.1 checking installable status
+339 silly pacote range manifest for chalk@^2.0.1 fetched in 45ms
+340 silly resolveWithNewModule chalk@2.4.2 checking installable status
+341 http fetch GET 304 https://registry.npmjs.org/latest-version 46ms (from cache)
+342 http fetch GET 304 https://registry.npmjs.org/import-lazy 47ms (from cache)
+343 http fetch GET 304 https://registry.npmjs.org/is-npm 46ms (from cache)
+344 http fetch GET 304 https://registry.npmjs.org/is-installed-globally 50ms (from cache)
+345 http fetch GET 304 https://registry.npmjs.org/semver-diff 50ms (from cache)
+346 http fetch GET 304 https://registry.npmjs.org/boxen 52ms (from cache)
+347 silly pacote range manifest for latest-version@^3.0.0 fetched in 52ms
+348 silly resolveWithNewModule latest-version@3.1.0 checking installable status
+349 silly pacote range manifest for import-lazy@^2.1.0 fetched in 54ms
+350 silly resolveWithNewModule import-lazy@2.1.0 checking installable status
+351 http fetch GET 304 https://registry.npmjs.org/configstore 54ms (from cache)
+352 silly pacote range manifest for is-npm@^1.0.0 fetched in 54ms
+353 silly resolveWithNewModule is-npm@1.0.0 checking installable status
+354 silly pacote range manifest for is-installed-globally@^0.1.0 fetched in 56ms
+355 silly resolveWithNewModule is-installed-globally@0.1.0 checking installable status
+356 silly pacote range manifest for semver-diff@^2.0.0 fetched in 55ms
+357 silly resolveWithNewModule semver-diff@2.1.0 checking installable status
+358 silly pacote range manifest for boxen@^1.2.1 fetched in 58ms
+359 silly resolveWithNewModule boxen@1.3.0 checking installable status
+360 silly pacote range manifest for configstore@^3.0.0 fetched in 58ms
+361 silly resolveWithNewModule configstore@3.1.2 checking installable status
+362 http fetch GET 304 https://registry.npmjs.org/xdg-basedir 58ms (from cache)
+363 silly pacote range manifest for xdg-basedir@^3.0.0 fetched in 59ms
+364 silly resolveWithNewModule xdg-basedir@3.0.0 checking installable status
+365 http fetch GET 304 https://registry.npmjs.org/ansi-align 26ms (from cache)
+366 http fetch GET 304 https://registry.npmjs.org/cli-boxes 25ms (from cache)
+367 http fetch GET 304 https://registry.npmjs.org/camelcase 27ms (from cache)
+368 http fetch GET 304 https://registry.npmjs.org/term-size 26ms (from cache)
+369 silly pacote range manifest for ansi-align@^2.0.0 fetched in 28ms
+370 silly resolveWithNewModule ansi-align@2.0.0 checking installable status
+371 silly pacote range manifest for cli-boxes@^1.0.0 fetched in 28ms
+372 silly resolveWithNewModule cli-boxes@1.0.0 checking installable status
+373 silly pacote range manifest for term-size@^1.2.0 fetched in 28ms
+374 silly resolveWithNewModule term-size@1.2.0 checking installable status
+375 silly pacote range manifest for camelcase@^4.0.0 fetched in 29ms
+376 silly resolveWithNewModule camelcase@4.1.0 checking installable status
+377 http fetch GET 304 https://registry.npmjs.org/string-width 32ms (from cache)
+378 silly pacote range manifest for string-width@^2.0.0 fetched in 33ms
+379 silly resolveWithNewModule string-width@2.1.1 checking installable status
+380 http fetch GET 304 https://registry.npmjs.org/widest-line 148ms (from cache)
+381 silly pacote range manifest for widest-line@^2.0.0 fetched in 149ms
+382 silly resolveWithNewModule widest-line@2.0.1 checking installable status
+383 http fetch GET 304 https://registry.npmjs.org/is-fullwidth-code-point 17ms (from cache)
+384 http fetch GET 304 https://registry.npmjs.org/strip-ansi 18ms (from cache)
+385 silly pacote range manifest for is-fullwidth-code-point@^2.0.0 fetched in 18ms
+386 silly resolveWithNewModule is-fullwidth-code-point@2.0.0 checking installable status
+387 silly pacote range manifest for strip-ansi@^4.0.0 fetched in 19ms
+388 silly resolveWithNewModule strip-ansi@4.0.0 checking installable status
+389 http fetch GET 304 https://registry.npmjs.org/ansi-regex 25ms (from cache)
+390 silly pacote range manifest for ansi-regex@^3.0.0 fetched in 26ms
+391 silly resolveWithNewModule ansi-regex@3.0.0 checking installable status
+392 http fetch GET 304 https://registry.npmjs.org/ansi-styles 17ms (from cache)
+393 silly pacote range manifest for ansi-styles@^3.2.1 fetched in 17ms
+394 silly resolveWithNewModule ansi-styles@3.2.1 checking installable status
+395 http fetch GET 304 https://registry.npmjs.org/escape-string-regexp 18ms (from cache)
+396 silly pacote range manifest for escape-string-regexp@^1.0.5 fetched in 19ms
+397 silly resolveWithNewModule escape-string-regexp@1.0.5 checking installable status
+398 http fetch GET 304 https://registry.npmjs.org/color-convert 20ms (from cache)
+399 silly pacote range manifest for color-convert@^1.9.0 fetched in 20ms
+400 silly resolveWithNewModule color-convert@1.9.3 checking installable status
+401 http fetch GET 304 https://registry.npmjs.org/color-name 17ms (from cache)
+402 silly pacote version manifest for color-name@1.1.3 fetched in 18ms
+403 silly resolveWithNewModule color-name@1.1.3 checking installable status
+404 http fetch GET 304 https://registry.npmjs.org/execa 16ms (from cache)
+405 silly pacote range manifest for execa@^0.7.0 fetched in 17ms
+406 silly resolveWithNewModule execa@0.7.0 checking installable status
+407 http fetch GET 200 https://registry.npmjs.org/strip-eof 5ms (from cache)
+408 silly pacote range manifest for strip-eof@^1.0.0 fetched in 6ms
+409 silly resolveWithNewModule strip-eof@1.0.0 checking installable status
+410 http fetch GET 304 https://registry.npmjs.org/get-stream 27ms (from cache)
+411 silly pacote range manifest for get-stream@^3.0.0 fetched in 29ms
+412 silly resolveWithNewModule get-stream@3.0.0 checking installable status
+413 http fetch GET 304 https://registry.npmjs.org/cross-spawn 32ms (from cache)
+414 http fetch GET 304 https://registry.npmjs.org/p-finally 32ms (from cache)
+415 http fetch GET 304 https://registry.npmjs.org/signal-exit 33ms (from cache)
+416 silly pacote range manifest for cross-spawn@^5.0.1 fetched in 35ms
+417 silly resolveWithNewModule cross-spawn@5.1.0 checking installable status
+418 http fetch GET 304 https://registry.npmjs.org/npm-run-path 34ms (from cache)
+419 silly pacote range manifest for p-finally@^1.0.0 fetched in 35ms
+420 silly resolveWithNewModule p-finally@1.0.0 checking installable status
+421 http fetch GET 304 https://registry.npmjs.org/is-stream 35ms (from cache)
+422 silly pacote range manifest for signal-exit@^3.0.0 fetched in 37ms
+423 silly resolveWithNewModule signal-exit@3.0.2 checking installable status
+424 silly pacote range manifest for npm-run-path@^2.0.0 fetched in 37ms
+425 silly resolveWithNewModule npm-run-path@2.0.2 checking installable status
+426 silly pacote range manifest for is-stream@^1.1.0 fetched in 38ms
+427 silly resolveWithNewModule is-stream@1.1.0 checking installable status
+428 http fetch GET 304 https://registry.npmjs.org/lru-cache 19ms (from cache)
+429 silly pacote range manifest for lru-cache@^4.0.1 fetched in 21ms
+430 silly resolveWithNewModule lru-cache@4.1.5 checking installable status
+431 http fetch GET 304 https://registry.npmjs.org/shebang-command 23ms (from cache)
+432 silly pacote range manifest for shebang-command@^1.2.0 fetched in 23ms
+433 silly resolveWithNewModule shebang-command@1.2.0 checking installable status
+434 http fetch GET 304 https://registry.npmjs.org/which 23ms (from cache)
+435 silly pacote range manifest for which@^1.2.9 fetched in 25ms
+436 silly resolveWithNewModule which@1.3.1 checking installable status
+437 http fetch GET 304 https://registry.npmjs.org/pseudomap 17ms (from cache)
+438 silly pacote range manifest for pseudomap@^1.0.2 fetched in 18ms
+439 silly resolveWithNewModule pseudomap@1.0.2 checking installable status
+440 http fetch GET 304 https://registry.npmjs.org/yallist 19ms (from cache)
+441 silly pacote range manifest for yallist@^2.1.2 fetched in 19ms
+442 silly resolveWithNewModule yallist@2.1.2 checking installable status
+443 http fetch GET 304 https://registry.npmjs.org/shebang-regex 14ms (from cache)
+444 silly pacote range manifest for shebang-regex@^1.0.0 fetched in 14ms
+445 silly resolveWithNewModule shebang-regex@1.0.0 checking installable status
+446 http fetch GET 304 https://registry.npmjs.org/isexe 19ms (from cache)
+447 silly pacote range manifest for isexe@^2.0.0 fetched in 20ms
+448 silly resolveWithNewModule isexe@2.0.0 checking installable status
+449 http fetch GET 304 https://registry.npmjs.org/path-key 16ms (from cache)
+450 silly pacote range manifest for path-key@^2.0.0 fetched in 16ms
+451 silly resolveWithNewModule path-key@2.0.1 checking installable status
+452 http fetch GET 304 https://registry.npmjs.org/dot-prop 21ms (from cache)
+453 http fetch GET 304 https://registry.npmjs.org/unique-string 22ms (from cache)
+454 http fetch GET 304 https://registry.npmjs.org/make-dir 22ms (from cache)
+455 silly pacote range manifest for dot-prop@^4.1.0 fetched in 24ms
+456 silly resolveWithNewModule dot-prop@4.2.0 checking installable status
+457 http fetch GET 304 https://registry.npmjs.org/graceful-fs 23ms (from cache)
+458 silly pacote range manifest for unique-string@^1.0.0 fetched in 24ms
+459 silly resolveWithNewModule unique-string@1.0.0 checking installable status
+460 silly pacote range manifest for make-dir@^1.0.0 fetched in 24ms
+461 silly resolveWithNewModule make-dir@1.3.0 checking installable status
+462 silly pacote range manifest for graceful-fs@^4.1.2 fetched in 25ms
+463 silly resolveWithNewModule graceful-fs@4.2.3 checking installable status
+464 http fetch GET 304 https://registry.npmjs.org/write-file-atomic 26ms (from cache)
+465 silly pacote range manifest for write-file-atomic@^2.0.0 fetched in 27ms
+466 silly resolveWithNewModule write-file-atomic@2.4.3 checking installable status
+467 http fetch GET 304 https://registry.npmjs.org/is-obj 15ms (from cache)
+468 silly pacote range manifest for is-obj@^1.0.0 fetched in 16ms
+469 silly resolveWithNewModule is-obj@1.0.1 checking installable status
+470 http fetch GET 304 https://registry.npmjs.org/pify 12ms (from cache)
+471 silly pacote range manifest for pify@^3.0.0 fetched in 13ms
+472 silly resolveWithNewModule pify@3.0.0 checking installable status
+473 http fetch GET 304 https://registry.npmjs.org/crypto-random-string 17ms (from cache)
+474 silly pacote range manifest for crypto-random-string@^1.0.0 fetched in 18ms
+475 silly resolveWithNewModule crypto-random-string@1.0.0 checking installable status
+476 http fetch GET 200 https://registry.npmjs.org/imurmurhash 1ms (from cache)
+477 silly pacote range manifest for imurmurhash@^0.1.4 fetched in 2ms
+478 silly resolveWithNewModule imurmurhash@0.1.4 checking installable status
+479 http fetch GET 304 https://registry.npmjs.org/ci-info 14ms (from cache)
+480 silly pacote range manifest for ci-info@^1.5.0 fetched in 14ms
+481 silly resolveWithNewModule ci-info@1.6.0 checking installable status
+482 http fetch GET 304 https://registry.npmjs.org/global-dirs 15ms (from cache)
+483 silly pacote range manifest for global-dirs@^0.1.0 fetched in 16ms
+484 silly resolveWithNewModule global-dirs@0.1.1 checking installable status
+485 http fetch GET 304 https://registry.npmjs.org/is-path-inside 17ms (from cache)
+486 silly pacote range manifest for is-path-inside@^1.0.0 fetched in 18ms
+487 silly resolveWithNewModule is-path-inside@1.0.1 checking installable status
+488 http fetch GET 304 https://registry.npmjs.org/ini 12ms (from cache)
+489 silly pacote range manifest for ini@^1.3.4 fetched in 13ms
+490 silly resolveWithNewModule ini@1.3.5 checking installable status
+491 http fetch GET 304 https://registry.npmjs.org/path-is-inside 16ms (from cache)
+492 silly pacote range manifest for path-is-inside@^1.0.1 fetched in 17ms
+493 silly resolveWithNewModule path-is-inside@1.0.2 checking installable status
+494 http fetch GET 304 https://registry.npmjs.org/package-json 15ms (from cache)
+495 silly pacote range manifest for package-json@^4.0.0 fetched in 18ms
+496 silly resolveWithNewModule package-json@4.0.1 checking installable status
+497 http fetch GET 304 https://registry.npmjs.org/got 24ms (from cache)
+498 silly pacote range manifest for got@^6.7.1 fetched in 26ms
+499 silly resolveWithNewModule got@6.7.1 checking installable status
+500 http fetch GET 304 https://registry.npmjs.org/registry-auth-token 25ms (from cache)
+501 silly pacote range manifest for registry-auth-token@^3.0.1 fetched in 26ms
+502 silly resolveWithNewModule registry-auth-token@3.4.0 checking installable status
+503 http fetch GET 304 https://registry.npmjs.org/registry-url 27ms (from cache)
+504 silly pacote range manifest for registry-url@^3.0.3 fetched in 27ms
+505 silly resolveWithNewModule registry-url@3.1.0 checking installable status
+506 http fetch GET 304 https://registry.npmjs.org/create-error-class 28ms (from cache)
+507 http fetch GET 304 https://registry.npmjs.org/duplexer3 29ms (from cache)
+508 http fetch GET 304 https://registry.npmjs.org/safe-buffer 28ms (from cache)
+509 silly pacote range manifest for create-error-class@^3.0.0 fetched in 30ms
+510 silly resolveWithNewModule create-error-class@3.0.2 checking installable status
+511 silly pacote range manifest for duplexer3@^0.1.4 fetched in 32ms
+512 silly resolveWithNewModule duplexer3@0.1.4 checking installable status
+513 silly pacote range manifest for safe-buffer@^5.0.1 fetched in 31ms
+514 silly resolveWithNewModule safe-buffer@5.2.0 checking installable status
+515 http fetch GET 304 https://registry.npmjs.org/lowercase-keys 32ms (from cache)
+516 http fetch GET 304 https://registry.npmjs.org/is-redirect 34ms (from cache)
+517 http fetch GET 304 https://registry.npmjs.org/unzip-response 33ms (from cache)
+518 silly pacote range manifest for lowercase-keys@^1.0.0 fetched in 34ms
+519 silly resolveWithNewModule lowercase-keys@1.0.1 checking installable status
+520 silly pacote range manifest for is-redirect@^1.0.0 fetched in 36ms
+521 silly resolveWithNewModule is-redirect@1.0.0 checking installable status
+522 http fetch GET 304 https://registry.npmjs.org/is-retry-allowed 35ms (from cache)
+523 http fetch GET 304 https://registry.npmjs.org/url-parse-lax 35ms (from cache)
+524 silly pacote range manifest for unzip-response@^2.0.1 fetched in 36ms
+525 silly resolveWithNewModule unzip-response@2.0.1 checking installable status
+526 silly pacote range manifest for is-retry-allowed@^1.0.0 fetched in 36ms
+527 silly resolveWithNewModule is-retry-allowed@1.2.0 checking installable status
+528 silly pacote range manifest for url-parse-lax@^1.0.0 fetched in 36ms
+529 silly resolveWithNewModule url-parse-lax@1.0.0 checking installable status
+530 http fetch GET 304 https://registry.npmjs.org/timed-out 38ms (from cache)
+531 silly pacote range manifest for timed-out@^4.0.0 fetched in 38ms
+532 silly resolveWithNewModule timed-out@4.0.1 checking installable status
+533 http fetch GET 304 https://registry.npmjs.org/capture-stack-trace 14ms (from cache)
+534 silly pacote range manifest for capture-stack-trace@^1.0.0 fetched in 15ms
+535 silly resolveWithNewModule capture-stack-trace@1.0.1 checking installable status
+536 http fetch GET 304 https://registry.npmjs.org/prepend-http 12ms (from cache)
+537 silly pacote range manifest for prepend-http@^1.0.1 fetched in 12ms
+538 silly resolveWithNewModule prepend-http@1.0.4 checking installable status
+539 http fetch GET 304 https://registry.npmjs.org/rc 16ms (from cache)
+540 silly pacote range manifest for rc@^1.1.6 fetched in 17ms
+541 silly resolveWithNewModule rc@1.2.8 checking installable status
+542 http fetch GET 304 https://registry.npmjs.org/deep-extend 20ms (from cache)
+543 silly pacote range manifest for deep-extend@^0.6.0 fetched in 21ms
+544 silly resolveWithNewModule deep-extend@0.6.0 checking installable status
+545 http fetch GET 304 https://registry.npmjs.org/strip-json-comments 21ms (from cache)
+546 silly pacote range manifest for strip-json-comments@~2.0.1 fetched in 21ms
+547 silly resolveWithNewModule strip-json-comments@2.0.1 checking installable status
+548 http fetch GET 304 https://registry.npmjs.org/minimist 22ms (from cache)
+549 silly pacote range manifest for minimist@^1.2.0 fetched in 23ms
+550 silly resolveWithNewModule minimist@1.2.0 checking installable status
+551 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 1149ms
+552 timing stage:loadIdealTree Completed in 1219ms
+553 silly currentTree lib
+553 silly currentTree └─┬ nodemon@1.19.4
+553 silly currentTree   ├── abbrev@1.1.1
+553 silly currentTree   ├── ansi-align@2.0.0
+553 silly currentTree   ├── ansi-regex@3.0.0
+553 silly currentTree   ├── ansi-styles@3.2.1
+553 silly currentTree   ├─┬ anymatch@2.0.0
+553 silly currentTree   │ └── normalize-path@2.1.1
+553 silly currentTree   ├── arr-diff@4.0.0
+553 silly currentTree   ├── arr-flatten@1.1.0
+553 silly currentTree   ├── arr-union@3.1.0
+553 silly currentTree   ├── array-unique@0.3.2
+553 silly currentTree   ├── assign-symbols@1.0.0
+553 silly currentTree   ├── async-each@1.0.3
+553 silly currentTree   ├── atob@2.1.2
+553 silly currentTree   ├── balanced-match@1.0.0
+553 silly currentTree   ├─┬ base@0.11.2
+553 silly currentTree   │ ├── define-property@1.0.0
+553 silly currentTree   │ ├── is-accessor-descriptor@1.0.0
+553 silly currentTree   │ ├── is-data-descriptor@1.0.0
+553 silly currentTree   │ └── is-descriptor@1.0.2
+553 silly currentTree   ├── binary-extensions@1.13.1
+553 silly currentTree   ├── boxen@1.3.0
+553 silly currentTree   ├── brace-expansion@1.1.11
+553 silly currentTree   ├─┬ braces@2.3.2
+553 silly currentTree   │ └── extend-shallow@2.0.1
+553 silly currentTree   ├── cache-base@1.0.1
+553 silly currentTree   ├── camelcase@4.1.0
+553 silly currentTree   ├── capture-stack-trace@1.0.1
+553 silly currentTree   ├── chalk@2.4.2
+553 silly currentTree   ├── chokidar@2.1.8
+553 silly currentTree   ├── ci-info@1.6.0
+553 silly currentTree   ├─┬ class-utils@0.3.6
+553 silly currentTree   │ └── define-property@0.2.5
+553 silly currentTree   ├── cli-boxes@1.0.0
+553 silly currentTree   ├── collection-visit@1.0.0
+553 silly currentTree   ├── color-convert@1.9.3
+553 silly currentTree   ├── color-name@1.1.3
+553 silly currentTree   ├── component-emitter@1.3.0
+553 silly currentTree   ├── concat-map@0.0.1
+553 silly currentTree   ├── configstore@3.1.2
+553 silly currentTree   ├── copy-descriptor@0.1.1
+553 silly currentTree   ├── core-util-is@1.0.2
+553 silly currentTree   ├── create-error-class@3.0.2
+553 silly currentTree   ├── cross-spawn@5.1.0
+553 silly currentTree   ├── crypto-random-string@1.0.0
+553 silly currentTree   ├─┬ debug@3.2.6
+553 silly currentTree   │ └── ms@2.1.2
+553 silly currentTree   ├── decode-uri-component@0.2.0
+553 silly currentTree   ├── deep-extend@0.6.0
+553 silly currentTree   ├─┬ define-property@2.0.2
+553 silly currentTree   │ ├── is-accessor-descriptor@1.0.0
+553 silly currentTree   │ ├── is-data-descriptor@1.0.0
+553 silly currentTree   │ └── is-descriptor@1.0.2
+553 silly currentTree   ├── dot-prop@4.2.0
+553 silly currentTree   ├── duplexer3@0.1.4
+553 silly currentTree   ├── escape-string-regexp@1.0.5
+553 silly currentTree   ├── execa@0.7.0
+553 silly currentTree   ├─┬ expand-brackets@2.1.4
+553 silly currentTree   │ ├── debug@2.6.9
+553 silly currentTree   │ ├── define-property@0.2.5
+553 silly currentTree   │ └── extend-shallow@2.0.1
+553 silly currentTree   ├─┬ extend-shallow@3.0.2
+553 silly currentTree   │ └── is-extendable@1.0.1
+553 silly currentTree   ├─┬ extglob@2.0.4
+553 silly currentTree   │ ├── define-property@1.0.0
+553 silly currentTree   │ ├── extend-shallow@2.0.1
+553 silly currentTree   │ ├── is-accessor-descriptor@1.0.0
+553 silly currentTree   │ ├── is-data-descriptor@1.0.0
+553 silly currentTree   │ └── is-descriptor@1.0.2
+553 silly currentTree   ├─┬ fill-range@4.0.0
+553 silly currentTree   │ └── extend-shallow@2.0.1
+553 silly currentTree   ├── for-in@1.0.2
+553 silly currentTree   ├── fragment-cache@0.2.1
+553 silly currentTree   ├── get-stream@3.0.0
+553 silly currentTree   ├── get-value@2.0.6
+553 silly currentTree   ├─┬ glob-parent@3.1.0
+553 silly currentTree   │ └── is-glob@3.1.0
+553 silly currentTree   ├── global-dirs@0.1.1
+553 silly currentTree   ├── got@6.7.1
+553 silly currentTree   ├── graceful-fs@4.2.3
+553 silly currentTree   ├── has-flag@3.0.0
+553 silly currentTree   ├── has-value@1.0.0
+553 silly currentTree   ├─┬ has-values@1.0.0
+553 silly currentTree   │ └── kind-of@4.0.0
+553 silly currentTree   ├── ignore-by-default@1.0.1
+553 silly currentTree   ├── import-lazy@2.1.0
+553 silly currentTree   ├── imurmurhash@0.1.4
+553 silly currentTree   ├── inherits@2.0.4
+553 silly currentTree   ├── ini@1.3.5
+553 silly currentTree   ├─┬ is-accessor-descriptor@0.1.6
+553 silly currentTree   │ └── kind-of@3.2.2
+553 silly currentTree   ├── is-binary-path@1.0.1
+553 silly currentTree   ├── is-buffer@1.1.6
+553 silly currentTree   ├── is-ci@1.2.1
+553 silly currentTree   ├─┬ is-data-descriptor@0.1.4
+553 silly currentTree   │ └── kind-of@3.2.2
+553 silly currentTree   ├─┬ is-descriptor@0.1.6
+553 silly currentTree   │ └── kind-of@5.1.0
+553 silly currentTree   ├── is-extendable@0.1.1
+553 silly currentTree   ├── is-extglob@2.1.1
+553 silly currentTree   ├── is-fullwidth-code-point@2.0.0
+553 silly currentTree   ├── is-glob@4.0.1
+553 silly currentTree   ├── is-installed-globally@0.1.0
+553 silly currentTree   ├── is-npm@1.0.0
+553 silly currentTree   ├─┬ is-number@3.0.0
+553 silly currentTree   │ └── kind-of@3.2.2
+553 silly currentTree   ├── is-obj@1.0.1
+553 silly currentTree   ├── is-path-inside@1.0.1
+553 silly currentTree   ├── is-plain-object@2.0.4
+553 silly currentTree   ├── is-redirect@1.0.0
+553 silly currentTree   ├── is-retry-allowed@1.2.0
+553 silly currentTree   ├── is-stream@1.1.0
+553 silly currentTree   ├── is-windows@1.0.2
+553 silly currentTree   ├── isarray@1.0.0
+553 silly currentTree   ├── isexe@2.0.0
+553 silly currentTree   ├── isobject@3.0.1
+553 silly currentTree   ├── kind-of@6.0.2
+553 silly currentTree   ├── latest-version@3.1.0
+553 silly currentTree   ├── lowercase-keys@1.0.1
+553 silly currentTree   ├── lru-cache@4.1.5
+553 silly currentTree   ├── make-dir@1.3.0
+553 silly currentTree   ├── map-cache@0.2.2
+553 silly currentTree   ├── map-visit@1.0.0
+553 silly currentTree   ├── micromatch@3.1.10
+553 silly currentTree   ├── minimatch@3.0.4
+553 silly currentTree   ├── minimist@1.2.0
+553 silly currentTree   ├─┬ mixin-deep@1.3.2
+553 silly currentTree   │ └── is-extendable@1.0.1
+553 silly currentTree   ├── ms@2.0.0
+553 silly currentTree   ├── nanomatch@1.2.13
+553 silly currentTree   ├── nopt@1.0.10
+553 silly currentTree   ├── normalize-path@3.0.0
+553 silly currentTree   ├── npm-run-path@2.0.2
+553 silly currentTree   ├─┬ object-copy@0.1.0
+553 silly currentTree   │ ├── define-property@0.2.5
+553 silly currentTree   │ └── kind-of@3.2.2
+553 silly currentTree   ├── object-visit@1.0.1
+553 silly currentTree   ├── object.pick@1.3.0
+553 silly currentTree   ├── p-finally@1.0.0
+553 silly currentTree   ├── package-json@4.0.1
+553 silly currentTree   ├── pascalcase@0.1.1
+553 silly currentTree   ├── path-dirname@1.0.2
+553 silly currentTree   ├── path-is-absolute@1.0.1
+553 silly currentTree   ├── path-is-inside@1.0.2
+553 silly currentTree   ├── path-key@2.0.1
+553 silly currentTree   ├── pify@3.0.0
+553 silly currentTree   ├── posix-character-classes@0.1.1
+553 silly currentTree   ├── prepend-http@1.0.4
+553 silly currentTree   ├── process-nextick-args@2.0.1
+553 silly currentTree   ├── pseudomap@1.0.2
+553 silly currentTree   ├── pstree.remy@1.1.7
+553 silly currentTree   ├── rc@1.2.8
+553 silly currentTree   ├── readable-stream@2.3.6
+553 silly currentTree   ├── readdirp@2.2.1
+553 silly currentTree   ├── regex-not@1.0.2
+553 silly currentTree   ├── registry-auth-token@3.4.0
+553 silly currentTree   ├── registry-url@3.1.0
+553 silly currentTree   ├── remove-trailing-separator@1.1.0
+553 silly currentTree   ├── repeat-element@1.1.3
+553 silly currentTree   ├── repeat-string@1.6.1
+553 silly currentTree   ├── resolve-url@0.2.1
+553 silly currentTree   ├── ret@0.1.15
+553 silly currentTree   ├── safe-buffer@5.1.2
+553 silly currentTree   ├── safe-regex@1.1.0
+553 silly currentTree   ├── semver-diff@2.1.0
+553 silly currentTree   ├── semver@5.7.1
+553 silly currentTree   ├─┬ set-value@2.0.1
+553 silly currentTree   │ └── extend-shallow@2.0.1
+553 silly currentTree   ├── shebang-command@1.2.0
+553 silly currentTree   ├── shebang-regex@1.0.0
+553 silly currentTree   ├── signal-exit@3.0.2
+553 silly currentTree   ├─┬ snapdragon-node@2.1.1
+553 silly currentTree   │ ├── define-property@1.0.0
+553 silly currentTree   │ ├── is-accessor-descriptor@1.0.0
+553 silly currentTree   │ ├── is-data-descriptor@1.0.0
+553 silly currentTree   │ └── is-descriptor@1.0.2
+553 silly currentTree   ├─┬ snapdragon-util@3.0.1
+553 silly currentTree   │ └── kind-of@3.2.2
+553 silly currentTree   ├─┬ snapdragon@0.8.2
+553 silly currentTree   │ ├── debug@2.6.9
+553 silly currentTree   │ ├── define-property@0.2.5
+553 silly currentTree   │ └── extend-shallow@2.0.1
+553 silly currentTree   ├── source-map-resolve@0.5.2
+553 silly currentTree   ├── source-map-url@0.4.0
+553 silly currentTree   ├── source-map@0.5.7
+553 silly currentTree   ├── split-string@3.1.0
+553 silly currentTree   ├─┬ static-extend@0.1.2
+553 silly currentTree   │ └── define-property@0.2.5
+553 silly currentTree   ├── string_decoder@1.1.1
+553 silly currentTree   ├── string-width@2.1.1
+553 silly currentTree   ├── strip-ansi@4.0.0
+553 silly currentTree   ├── strip-eof@1.0.0
+553 silly currentTree   ├── strip-json-comments@2.0.1
+553 silly currentTree   ├── supports-color@5.5.0
+553 silly currentTree   ├── term-size@1.2.0
+553 silly currentTree   ├── timed-out@4.0.1
+553 silly currentTree   ├─┬ to-object-path@0.3.0
+553 silly currentTree   │ └── kind-of@3.2.2
+553 silly currentTree   ├── to-regex-range@2.1.1
+553 silly currentTree   ├── to-regex@3.0.2
+553 silly currentTree   ├── touch@3.1.0
+553 silly currentTree   ├─┬ undefsafe@2.0.2
+553 silly currentTree   │ └── debug@2.6.9
+553 silly currentTree   ├── union-value@1.0.1
+553 silly currentTree   ├── unique-string@1.0.0
+553 silly currentTree   ├─┬ unset-value@1.0.0
+553 silly currentTree   │ ├─┬ has-value@0.3.1
+553 silly currentTree   │ │ └── isobject@2.1.0
+553 silly currentTree   │ └── has-values@0.1.4
+553 silly currentTree   ├── unzip-response@2.0.1
+553 silly currentTree   ├── upath@1.2.0
+553 silly currentTree   ├── update-notifier@2.5.0
+553 silly currentTree   ├── urix@0.1.0
+553 silly currentTree   ├── url-parse-lax@1.0.0
+553 silly currentTree   ├── use@3.1.1
+553 silly currentTree   ├── util-deprecate@1.0.2
+553 silly currentTree   ├── which@1.3.1
+553 silly currentTree   ├── widest-line@2.0.1
+553 silly currentTree   ├── write-file-atomic@2.4.3
+553 silly currentTree   ├── xdg-basedir@3.0.0
+553 silly currentTree   └── yallist@2.1.2
+554 silly idealTree lib
+554 silly idealTree └─┬ nodemon@2.0.2
+554 silly idealTree   ├── abbrev@1.1.1
+554 silly idealTree   ├── ansi-align@2.0.0
+554 silly idealTree   ├── ansi-regex@3.0.0
+554 silly idealTree   ├── ansi-styles@3.2.1
+554 silly idealTree   ├── anymatch@3.1.1
+554 silly idealTree   ├── balanced-match@1.0.0
+554 silly idealTree   ├── binary-extensions@2.0.0
+554 silly idealTree   ├── boxen@1.3.0
+554 silly idealTree   ├── brace-expansion@1.1.11
+554 silly idealTree   ├── braces@3.0.2
+554 silly idealTree   ├── camelcase@4.1.0
+554 silly idealTree   ├── capture-stack-trace@1.0.1
+554 silly idealTree   ├── chalk@2.4.2
+554 silly idealTree   ├── chokidar@3.3.1
+554 silly idealTree   ├── ci-info@1.6.0
+554 silly idealTree   ├── cli-boxes@1.0.0
+554 silly idealTree   ├── color-convert@1.9.3
+554 silly idealTree   ├── color-name@1.1.3
+554 silly idealTree   ├── concat-map@0.0.1
+554 silly idealTree   ├── configstore@3.1.2
+554 silly idealTree   ├── create-error-class@3.0.2
+554 silly idealTree   ├── cross-spawn@5.1.0
+554 silly idealTree   ├── crypto-random-string@1.0.0
+554 silly idealTree   ├── debug@3.2.6
+554 silly idealTree   ├── deep-extend@0.6.0
+554 silly idealTree   ├── dot-prop@4.2.0
+554 silly idealTree   ├── duplexer3@0.1.4
+554 silly idealTree   ├── escape-string-regexp@1.0.5
+554 silly idealTree   ├── execa@0.7.0
+554 silly idealTree   ├── fill-range@7.0.1
+554 silly idealTree   ├── fsevents@2.1.2
+554 silly idealTree   ├── get-stream@3.0.0
+554 silly idealTree   ├── glob-parent@5.1.0
+554 silly idealTree   ├── global-dirs@0.1.1
+554 silly idealTree   ├── got@6.7.1
+554 silly idealTree   ├── graceful-fs@4.2.3
+554 silly idealTree   ├── has-flag@3.0.0
+554 silly idealTree   ├── ignore-by-default@1.0.1
+554 silly idealTree   ├── import-lazy@2.1.0
+554 silly idealTree   ├── imurmurhash@0.1.4
+554 silly idealTree   ├── ini@1.3.5
+554 silly idealTree   ├── is-binary-path@2.1.0
+554 silly idealTree   ├── is-ci@1.2.1
+554 silly idealTree   ├── is-extglob@2.1.1
+554 silly idealTree   ├── is-fullwidth-code-point@2.0.0
+554 silly idealTree   ├── is-glob@4.0.1
+554 silly idealTree   ├── is-installed-globally@0.1.0
+554 silly idealTree   ├── is-npm@1.0.0
+554 silly idealTree   ├── is-number@7.0.0
+554 silly idealTree   ├── is-obj@1.0.1
+554 silly idealTree   ├── is-path-inside@1.0.1
+554 silly idealTree   ├── is-redirect@1.0.0
+554 silly idealTree   ├── is-retry-allowed@1.2.0
+554 silly idealTree   ├── is-stream@1.1.0
+554 silly idealTree   ├── isexe@2.0.0
+554 silly idealTree   ├── latest-version@3.1.0
+554 silly idealTree   ├── lowercase-keys@1.0.1
+554 silly idealTree   ├── lru-cache@4.1.5
+554 silly idealTree   ├── make-dir@1.3.0
+554 silly idealTree   ├── minimatch@3.0.4
+554 silly idealTree   ├── minimist@1.2.0
+554 silly idealTree   ├── ms@2.1.2
+554 silly idealTree   ├── nopt@1.0.10
+554 silly idealTree   ├── normalize-path@3.0.0
+554 silly idealTree   ├── npm-run-path@2.0.2
+554 silly idealTree   ├── p-finally@1.0.0
+554 silly idealTree   ├── package-json@4.0.1
+554 silly idealTree   ├── path-is-inside@1.0.2
+554 silly idealTree   ├── path-key@2.0.1
+554 silly idealTree   ├── picomatch@2.2.1
+554 silly idealTree   ├── pify@3.0.0
+554 silly idealTree   ├── prepend-http@1.0.4
+554 silly idealTree   ├── pseudomap@1.0.2
+554 silly idealTree   ├── pstree.remy@1.1.7
+554 silly idealTree   ├── rc@1.2.8
+554 silly idealTree   ├── readdirp@3.3.0
+554 silly idealTree   ├── registry-auth-token@3.4.0
+554 silly idealTree   ├── registry-url@3.1.0
+554 silly idealTree   ├── safe-buffer@5.2.0
+554 silly idealTree   ├── semver-diff@2.1.0
+554 silly idealTree   ├── semver@5.7.1
+554 silly idealTree   ├── shebang-command@1.2.0
+554 silly idealTree   ├── shebang-regex@1.0.0
+554 silly idealTree   ├── signal-exit@3.0.2
+554 silly idealTree   ├── string-width@2.1.1
+554 silly idealTree   ├── strip-ansi@4.0.0
+554 silly idealTree   ├── strip-eof@1.0.0
+554 silly idealTree   ├── strip-json-comments@2.0.1
+554 silly idealTree   ├── supports-color@5.5.0
+554 silly idealTree   ├── term-size@1.2.0
+554 silly idealTree   ├── timed-out@4.0.1
+554 silly idealTree   ├── to-regex-range@5.0.1
+554 silly idealTree   ├── touch@3.1.0
+554 silly idealTree   ├─┬ undefsafe@2.0.2
+554 silly idealTree   │ ├── debug@2.6.9
+554 silly idealTree   │ └── ms@2.0.0
+554 silly idealTree   ├── unique-string@1.0.0
+554 silly idealTree   ├── unzip-response@2.0.1
+554 silly idealTree   ├── update-notifier@2.5.0
+554 silly idealTree   ├── url-parse-lax@1.0.0
+554 silly idealTree   ├── which@1.3.1
+554 silly idealTree   ├── widest-line@2.0.1
+554 silly idealTree   ├── write-file-atomic@2.4.3
+554 silly idealTree   ├── xdg-basedir@3.0.0
+554 silly idealTree   └── yallist@2.1.2
+555 silly install generateActionsToTake
+556 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/arr-diff
+557 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/arr-flatten
+558 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/arr-union
+559 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/array-unique
+560 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/assign-symbols
+561 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/async-each
+562 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/atob
+563 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/binary-extensions
+564 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/component-emitter
+565 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/copy-descriptor
+566 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/core-util-is
+567 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/debug/node_modules/ms
+568 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/decode-uri-component
+569 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/expand-brackets/node_modules/debug
+570 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/for-in
+571 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/get-value
+572 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/glob-parent/node_modules/is-glob
+573 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/inherits
+574 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-binary-path
+575 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-buffer
+576 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/has-values
+577 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/has-values/node_modules/kind-of
+578 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-accessor-descriptor/node_modules/kind-of
+579 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-accessor-descriptor
+580 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-data-descriptor/node_modules/kind-of
+581 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-data-descriptor
+582 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-descriptor
+583 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-descriptor/node_modules/kind-of
+584 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/class-utils/node_modules/define-property
+585 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/expand-brackets/node_modules/define-property
+586 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-extendable
+587 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/braces/node_modules/extend-shallow
+588 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/expand-brackets/node_modules/extend-shallow
+589 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/extglob/node_modules/extend-shallow
+590 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/fill-range/node_modules/extend-shallow
+591 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-number/node_modules/kind-of
+592 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-number
+593 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-windows
+594 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/isarray
+595 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/isobject
+596 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/has-value
+597 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-plain-object
+598 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/extend-shallow/node_modules/is-extendable
+599 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/extend-shallow
+600 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/kind-of
+601 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/base/node_modules/is-accessor-descriptor
+602 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/base/node_modules/is-data-descriptor
+603 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/base/node_modules/is-descriptor
+604 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/base/node_modules/define-property
+605 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/define-property/node_modules/is-accessor-descriptor
+606 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/define-property/node_modules/is-data-descriptor
+607 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/define-property/node_modules/is-descriptor
+608 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/define-property
+609 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/extglob/node_modules/is-accessor-descriptor
+610 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/extglob/node_modules/is-data-descriptor
+611 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/extglob/node_modules/is-descriptor
+612 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/extglob/node_modules/define-property
+613 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/map-cache
+614 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/fragment-cache
+615 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/mixin-deep
+616 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/mixin-deep/node_modules/is-extendable
+617 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/ms
+618 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/object-copy/node_modules/define-property
+619 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/object-copy/node_modules/kind-of
+620 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/object-copy
+621 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/object-visit
+622 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/map-visit
+623 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/collection-visit
+624 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/object.pick
+625 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/pascalcase
+626 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/path-dirname
+627 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/glob-parent
+628 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/path-is-absolute
+629 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/posix-character-classes
+630 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/process-nextick-args
+631 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/remove-trailing-separator
+632 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/anymatch/node_modules/normalize-path
+633 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/repeat-element
+634 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/repeat-string
+635 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/resolve-url
+636 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/ret
+637 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/safe-buffer
+638 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/safe-regex
+639 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/regex-not
+640 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/set-value/node_modules/extend-shallow
+641 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon-node/node_modules/is-accessor-descriptor
+642 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon-node/node_modules/is-data-descriptor
+643 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon-node/node_modules/is-descriptor
+644 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon-node/node_modules/define-property
+645 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon-util/node_modules/kind-of
+646 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon-util
+647 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon-node
+648 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon/node_modules/debug
+649 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon/node_modules/define-property
+650 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon/node_modules/extend-shallow
+651 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/source-map
+652 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/source-map-url
+653 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/split-string
+654 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/set-value
+655 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/static-extend/node_modules/define-property
+656 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/static-extend
+657 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/class-utils
+658 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/string_decoder
+659 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/to-object-path/node_modules/kind-of
+660 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/to-object-path
+661 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/to-regex
+662 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/to-regex-range
+663 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/fill-range
+664 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/union-value
+665 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/unset-value/node_modules/has-value/node_modules/isobject
+666 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/unset-value/node_modules/has-values
+667 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/unset-value/node_modules/has-value
+668 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/unset-value
+669 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/cache-base
+670 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/base
+671 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/upath
+672 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/urix
+673 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/source-map-resolve
+674 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/use
+675 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon
+676 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/braces
+677 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/expand-brackets
+678 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/extglob
+679 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/nanomatch
+680 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/micromatch
+681 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/anymatch
+682 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/util-deprecate
+683 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/readable-stream
+684 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/readdirp
+685 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/chokidar
+686 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon
+687 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules
+688 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/debug/node_modules
+689 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/expand-brackets/node_modules
+690 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/glob-parent/node_modules
+691 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/has-values/node_modules
+692 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-accessor-descriptor/node_modules
+693 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-data-descriptor/node_modules
+694 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-descriptor/node_modules
+695 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/class-utils/node_modules
+696 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/braces/node_modules
+697 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/extglob/node_modules
+698 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/fill-range/node_modules
+699 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/is-number/node_modules
+700 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/extend-shallow/node_modules
+701 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/base/node_modules
+702 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/define-property/node_modules
+703 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/mixin-deep/node_modules
+704 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/object-copy/node_modules
+705 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/anymatch/node_modules
+706 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/set-value/node_modules
+707 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon-node/node_modules
+708 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon-util/node_modules
+709 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/snapdragon/node_modules
+710 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/static-extend/node_modules
+711 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/to-object-path/node_modules
+712 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/undefsafe/node_modules
+713 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/unset-value/node_modules/has-value/node_modules
+714 warn checkPermissions Missing write access to /usr/local/lib/node_modules/nodemon/node_modules/unset-value/node_modules
+715 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+716 timing stage:rollbackFailedOptional Completed in 0ms
+717 timing stage:runTopLevelLifecycles Completed in 1583ms
+718 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules/nodemon/node_modules/arr-diff'
+719 verbose cwd /home/spoto/socket
+720 verbose Linux 3.10.0-1062.4.1.el7.x86_64
+721 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "-g" "nodemon"
+722 verbose node v12.11.1
+723 verbose npm  v6.11.3
+724 error code EACCES
+725 error syscall access
+726 error path /usr/local/lib/node_modules/nodemon/node_modules/arr-diff
+727 error errno -13
+728 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules/nodemon/node_modules/arr-diff'
+728 error  [Error: EACCES: permission denied, access '/usr/local/lib/node_modules/nodemon/node_modules/arr-diff'] {
+728 error   stack: "Error: EACCES: permission denied, access '/usr/local/lib/node_modules/nodemon/node_modules/arr-diff'",
+728 error   errno: -13,
+728 error   code: 'EACCES',
+728 error   syscall: 'access',
+728 error   path: '/usr/local/lib/node_modules/nodemon/node_modules/arr-diff'
+728 error }
+729 error The operation was rejected by your operating system.
+729 error It is likely you do not have the permissions to access this file as the current user
+729 error
+729 error If you believe this might be a permissions issue, please double-check the
+729 error permissions of the file and its containing directories, or try running
+729 error the command again as root/Administrator.
+730 verbose exit [ -13, true ]

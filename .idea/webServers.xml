@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="35af0503-9362-459c-9bde-230870e71f87" name="spoto" url="http://ftp.spoto.com">
+        <fileTransfer rootFolder="/home/spoto" accessType="SFTP" host="ftp.spoto.com" port="19057" sshConfigId="93e6ef11-91c7-4abc-aaad-46a65416b061" sshConfig="spoto">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="86e0570b-ab9f-40ba-8a3b-4acc80ebf9aa" name="jlcompay">
+        <fileTransfer rootFolder="/home/jlcompany" accessType="SFTP" host="220.75.195.172" port="19057" sshConfigId="5de34824-f130-4c40-a397-621d55cea1bb" sshConfig="jlcompany@220.75.195.172:19057 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

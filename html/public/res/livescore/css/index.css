@@ -1,0 +1,419 @@
+body {
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+
+}
+
+article {
+    min-height: 700px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+}
+
+#header ul {
+    margin-top: 50px;
+    float: right;
+}
+
+li {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+}
+
+#log_view {
+    display: table;
+    text-align: center;
+    border: 1px solid #eee;
+    font-size: 16px;
+}
+
+#log_view .log_row {
+    display: table-row;
+    border: 1px solid #eee;
+}
+
+#log_view .log_data {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    min-width: 50px;
+    border: 1px solid #eee;
+    padding: 8px;
+}
+
+.fileInsertImg div {
+    width: 105px;
+    height: 105px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    margin: 3px;
+    z-index: 0;
+}
+
+.fileInsertImg div img {
+    min-height: 100%;
+    min-width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: 0px auto;
+    position: absolute;
+    z-index: 0;
+}
+
+div.icon_x {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+    margin-left: 90px;
+    display: none;
+    opacity: 0.7;
+
+}
+
+div.icon_x img {
+    z-index: 1;
+}
+
+.sns_btn {
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.sns_btn img {
+    width: 200px;
+}
+
+.sns_pass {
+    width: 100px;
+    text-overflow: ellipsis;
+}
+
+#editorForm .ck-editor__editable_inline {
+    min-height: 500px;
+    padding: 10px;
+}
+
+/* 에디터 이미지 팝업 */
+.pop-layer .pop-container {
+    padding: 20px 25px;
+}
+
+.pop-layer p.ctxt {
+    color: #666;
+    line-height: 25px;
+}
+
+.pop-layer .btn-r {
+    width: 100%;
+    margin: 10px 0 20px;
+    padding-top: 10px;
+    border-top: 1px solid #DDD;
+    text-align: right;
+}
+
+.pop-layer {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 410px;
+    height: auto;
+    background-color: #fff;
+    border: 5px solid #3571B5;
+    z-index: 10;
+}
+
+.dim-layer {
+    display: none;
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.dim-layer .dimBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+.dim-layer .pop-layer {
+    display: block;
+}
+
+a.btn-layerClose {
+    display: inline-block;
+    height: 25px;
+    padding: 0 14px 0;
+    border: 1px solid #304a8a;
+    background-color: #3f5a9d;
+    font-size: 13px;
+    color: #fff;
+    line-height: 25px;
+}
+
+a.btn-layerClose:hover {
+    border: 1px solid #091940;
+    background-color: #1f326a;
+    color: #fff;
+}
+
+
+/* 게시판  */
+.boardContents {
+    margin: 0 auto;
+    width: 900px;
+    margin-bottom: 70px;
+}
+
+.boardContents p {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+
+}
+
+.boardContents .boardMain {
+    border-bottom: 1px solid #ccc;
+    float: none;
+    min-height: 400px;
+}
+
+.boardContents .boardMain p {
+    border-bottom: none;
+    display: inline;
+    margin: 20px 40px;
+}
+
+.boardContents .boardMain figure {
+    margin-top: 30px;
+}
+
+.boardContents .boardMain table {
+    margin: 50px auto;
+}
+
+.boardContents div {
+    float: right;
+}
+
+.boardContents .button {
+    width: 70px;
+
+}
+
+/*경기일정 */
+#mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    display: none;
+    text-decoration: none
+}
+
+.layerpop {
+    display: none;
+    z-index: 1000;
+    border: 2px solid #ccc;
+    background: #fff;
+    cursor: move;
+    overflow-y: scroll;
+
+}
+
+.layerpop_area a {
+    text-decoration: none
+}
+
+.layerpop_area .title {
+    padding: 10px 10px 10px 10px;
+    border: 0px solid #aaaaaa;
+    background: #f1f1f1;
+    color: #3eb0ce;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.layerpop_area .layerpop_close {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.layerpop_area .layerpop_close:hover {
+    cursor: pointer;
+}
+
+.layerpop_area .content {
+    width: 96%;
+    margin: 2%;
+    color: #828282;
+}
+
+.layerpop_area .content label {
+    margin-left: 15px;
+}
+
+
+/* 게시판 댓글 */
+
+.boardComment {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.boardComment .writer {
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.boardComment .postingData {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+}
+
+.boardComment .comment {
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 18px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.boardComment .commentSubmit,
+.boardComment .commentReplySubmit {
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+}
+
+
+.boardComment .reply {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.boardComment .reply p {
+    float: left;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.boardComment .iconBox img {
+    width: 40px;
+    height: 40px;
+}
+
+.boardComment .imgIcon {
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 15px;
+    width: 15px;
+    float: left;
+    cursor: pointer;
+}
+
+.boardComment .reply form {
+    display: none;
+}
+
+.boardComment form {
+    margin-left: 10px;
+}
+
+.boardComment h3 {
+    margin-bottom: 40px;
+}
+
+.iconBox {
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.boardCommentList {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+figure {
+    display: inline !important;
+    margin-right: 5px !important;
+}
+
+figure>img {
+    margin: 5px 0 0 0 !important;
+    display: inline !important;
+}
+
+figcaption {
+    display: none !important;
+}
+
+.boardMain table {
+    border-spacing: 0px;
+}
+
+.boardMain figure td {
+    border: 0.5px solid #ccc !important;
+
+}
+
+.ck-content p {
+    display: inline !important;
+    margin: 0 30px;
+}
+
+.ck-content .sclassVS {
+    display: inline !important;
+    margin-inline-start: 50px;
+    padding-right: 50px;
+}
+
+
+.boardCommentReply {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.boardCommentReply .replyView {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.replyForm .ck-editor__editable_inline,
+.commentForm .ck-editor__editable_inline {
+    height: 100px;
+}
+
+footer {
+    margin-top: 100px;
+}

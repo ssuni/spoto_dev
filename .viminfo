@@ -1,0 +1,177 @@
+# 이 viminfo 파일은 빔이 만든 것입니다 Vim 7.4.
+# 조심만 한다면 고칠 수도 있습니다!
+
+# 이 파일이 저장되었을 때의 'encoding'의 값
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# 명령 줄 히스토리 (새것부터 오래된 것 순):
+:q
+:Q
+:ㅈㅂ
+:ㅕ
+:wq
+:q!
+:Q!
+:1
+:ㅂ
+
+# 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+
+# 표현 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 레지스터:
+
+# 파일 마크:
+'0  131  1  /var/spool/mail/spoto
+'1  1  0  /var/spool/main/spoto
+'2  94  0  /var/spool/mail/spoto
+'3  32  0  /var/spool/mail/spoto
+'4  9  44  ~/html/composer.json
+'5  11  35  ~/html/composer.json
+'6  1  0  ~/html/composer.lock
+'7  11  56  ~/html/composer.json
+'8  24  18  ~/html/composer.json
+'9  1  0  /var/spool/mail/spoto
+
+# 점프목록 (새것이 먼저):
+-'  131  1  /var/spool/mail/spoto
+-'  1  0  /var/spool/main/spoto
+-'  132  0  /var/spool/mail/spoto
+-'  141  0  /var/spool/mail/spoto
+-'  94  0  /var/spool/mail/spoto
+-'  32  0  /var/spool/mail/spoto
+-'  1  0  /var/spool/mail/spoto
+-'  9  44  ~/html/composer.json
+-'  11  8  ~/html/composer.json
+-'  1  0  ~/html/composer.lock
+-'  24  1  ~/html/composer.json
+-'  1  0  ~/html/composer.json
+-'  390  0  /var/spool/mail/spoto
+-'  200  0  /var/spool/mail/spoto
+-'  15085  2  /var/spool/mail/spoto
+-'  442  0  /var/spool/mail/spoto
+-'  313  0  /var/spool/mail/spoto
+-'  297  1  /var/spool/mail/spoto
+-'  244  0  /var/spool/mail/spoto
+-'  113  2  /var/spool/mail/spoto
+-'  45  0  /var/spool/mail/spoto
+-'  49  0  /var/spool/mail/spoto
+-'  172  0  /var/spool/mail/spoto
+-'  75  0  /var/spool/mail/spoto
+-'  367  0  /var/spool/mail/spoto
+-'  2  0  /var/spool/mail/spoto
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+-'  1  0  /var/log/cron
+
+# 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> /var/spool/mail/spoto
+	"	131	1
+	^	131	0
+	.	131	0
+	+	131	0
+
+> /var/spool/main/spoto
+	"	1	0
+	^	1	0
+
+> ~/html/composer.json
+	"	9	44
+	^	9	45
+	.	9	40
+	+	9	37
+	+	15	29
+	+	15	32
+	+	21	0
+	+	20	0
+	+	17	0
+	+	18	1
+	+	19	1
+	+	24	1
+	+	11	70
+	+	11	47
+	+	11	99
+	+	11	57
+	+	11	36
+	+	9	36
+	+	11	36
+	+	9	40
+
+> ~/html/composer.lock
+	"	1	0

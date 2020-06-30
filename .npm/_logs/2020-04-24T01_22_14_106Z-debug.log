@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'moment'
+1 verbose cli ]
+2 info using npm@6.13.7
+3 info using node@v13.11.0
+4 verbose npm-session b79c4f18ccd27701
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/moment 146ms (from cache)
+8 http fetch GET 200 https://registry.npmjs.org/moment/-/moment-2.24.0.tgz 73ms (from cache)
+9 silly pacote tag manifest for moment@latest fetched in 257ms
+10 timing stage:loadCurrentTree Completed in 287ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule moment@2.24.0 checking installable status
+18 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 3ms
+19 timing stage:loadIdealTree Completed in 4ms
+20 silly currentTree lib
+21 silly idealTree lib
+21 silly idealTree └── moment@2.24.0
+22 silly install generateActionsToTake
+23 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+24 timing stage:rollbackFailedOptional Completed in 0ms
+25 timing stage:runTopLevelLifecycles Completed in 294ms
+26 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+27 verbose cwd /home/spoto/socketio
+28 verbose Linux 3.10.0-1062.4.1.el7.x86_64
+29 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "moment"
+30 verbose node v13.11.0
+31 verbose npm  v6.13.7
+32 error code EACCES
+33 error syscall access
+34 error path /usr/local/lib/node_modules
+35 error errno -13
+36 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+36 error  [Error: EACCES: permission denied, access '/usr/local/lib/node_modules'] {
+36 error   stack: "Error: EACCES: permission denied, access '/usr/local/lib/node_modules'",
+36 error   errno: -13,
+36 error   code: 'EACCES',
+36 error   syscall: 'access',
+36 error   path: '/usr/local/lib/node_modules'
+36 error }
+37 error The operation was rejected by your operating system.
+37 error It is likely you do not have the permissions to access this file as the current user
+37 error
+37 error If you believe this might be a permissions issue, please double-check the
+37 error permissions of the file and its containing directories, or try running
+37 error the command again as root/Administrator.
+38 verbose exit [ -13, true ]

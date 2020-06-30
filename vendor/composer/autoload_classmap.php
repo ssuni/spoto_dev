@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Google_Service_Exception' => $vendorDir . '/google/apiclient/src/Google/Service/Exception.php',
+    'Google_Service_Resource' => $vendorDir . '/google/apiclient/src/Google/Service/Resource.php',
     'Kint' => $vendorDir . '/kint-php/kint/src/Kint.php',
     'Kint_Object' => $vendorDir . '/kint-php/kint/src/Object.php',
     'Kint_Object_Blob' => $vendorDir . '/kint-php/kint/src/Object/Blob.php',

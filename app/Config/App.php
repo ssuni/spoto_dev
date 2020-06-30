@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'https://spoto.com';
+	public $baseURL = 'https://ooo.spoto.com';
 
 	/*
 	|--------------------------------------------------------------------------

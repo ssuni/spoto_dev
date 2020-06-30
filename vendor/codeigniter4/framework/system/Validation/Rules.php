@@ -196,7 +196,28 @@ class Rules
 		return (bool) ($row->get()
 						->getRow() === null);
 	}
+    public function is_not_unique(string $str = null, string $field, array $data): bool
+    {
+        // Grab any data for exclusion of a single row.
+        list($field, $ignoreField, $ignoreValue) = array_pad(explode(',', $field), 3, null);
 
+        // Break the table and field apart
+        sscanf($field, '%[^.].%[^.]', $table, $field);
+
+        $db = Database::connect($data['DBGroup'] ?? null);
+
+        $row = $db->table($table)
+            ->select('1')
+            ->where($field, $str)
+            ->limit(1);
+
+        if (! empty($ignoreField) && ! empty($ignoreValue)) {
+            $row = $row->where("{$ignoreField} !=", $ignoreValue);
+        }
+
+        return (bool) !($row->get()
+                ->getRow() === null);
+    }
 	//--------------------------------------------------------------------
 
 	/**

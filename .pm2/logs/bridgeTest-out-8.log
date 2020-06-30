@@ -1,0 +1,12 @@
+LISTEN SERVER START - PORT 3000
+JOIN  == /bridgeTest#UgwPolAoOUrGunxGAAAA
+JOIN  == /bridgeTest#vG3kvrhqhu5sjCCbAAAB
+{
+  roomid: '/bridgeTest#vG3kvrhqhu5sjCCbAAAB',
+  home: 927,
+  away: 466,
+  home_name: '비토리아 SC',
+  away_name: '스포르팅 CP',
+  game_idx: '1745161',
+  game_date: '2020-06-05'
+}

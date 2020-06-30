@@ -44,10 +44,17 @@ $RECYCLE.BIN/
 .env
 .vagrant
 Vagrantfile
-
+.idea
+.npm
+.config
+.local
+.pm2
+.subversion
 #-------------------------
 # Temporary Files
 #-------------------------
+public/img/*
+writable/uploads/*
 writable/cache/*
 !writable/cache/index.html
 
@@ -57,7 +64,7 @@ writable/logs/*
 writable/session/*
 !writable/session/index.html
 
-writable/uploads/*
+
 !writable/uploads/index.html
 
 writable/debugbar/*

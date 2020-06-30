@@ -1,0 +1,12 @@
+LISTEN SERVER START - PORT 3000
+JOIN  == /bridgeTest#NtMXIhTldD78GcBrAAAA
+JOIN  == /bridgeTest#3hOWudTkZCRcB_dWAAAB
+{
+  roomid: '/bridgeTest#3hOWudTkZCRcB_dWAAAB',
+  home: 33558,
+  away: 3948,
+  home_name: '과달루페 FC(N)',
+  away_name: 'LD 알라후엘렌세',
+  game_idx: '1828575',
+  game_date: '2020-06-05'
+}
